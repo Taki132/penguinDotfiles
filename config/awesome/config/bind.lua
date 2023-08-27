@@ -76,7 +76,7 @@ awful.keyboard.append_global_keybindings({
 	),
     awful.key(
 		{ mod }, "BackSpace", function() 
-			awful.spawn.with_shell("awesome-client command \"lockscreen()\"")
+			awful.spawn.with_shell(user.lock)
 		end,
         { description = "lock screen", group = "awesome" }
 	),
