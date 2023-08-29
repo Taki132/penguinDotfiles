@@ -26,9 +26,9 @@ client.connect_signal("request::titlebars", function(c)
 				spacing = dpi(15),
 				widget = wibox.layout.fixed.horizontal
 			},
-			right = dpi(15),
-			top = dpi(15),
-			bottom = dpi(15),
+			right = dpi(13),
+			top = dpi(13),
+			bottom = dpi(13),
 			widget = wibox.container.margin
 		}
 	end
