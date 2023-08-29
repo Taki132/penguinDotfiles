@@ -1,4 +1,4 @@
-st.font:              Terminus:pixelsize=14:antialias=true:autohint=true;
+st.font:              Roboto Mono Medium:pixelsize=16:antialias=true:autohint=true;
 st.borderpx:          32
 
 #define BG #101010
