@@ -33,8 +33,8 @@
 ;; available. You can either set `doom-theme' or manually load a theme with the
 ;; `load-theme' function. This is the default:
 (setq doom-theme 'doom-one
-      doom-font (font-spec :family "Terminus" :size 14 :weight 'normal)
-      doom-variable-pitch-font (font-spec :family "Terminus" :size 14))
+      doom-font (font-spec :family "Roboto Mono" :size 14 :weight 'medium)
+      doom-variable-pitch-font (font-spec :family "Roboto Mono" :size 14))
 
 ;; Line numbers
 (setq display-line-numbers-type t)
