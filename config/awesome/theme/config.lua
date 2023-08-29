@@ -396,7 +396,6 @@ local color = wibox.widget {
 -- General
 
 local general = wibox.widget {
-	guiselect("Screenshots", "shotdir", user.shotdir, "~/Pictures/Screenshots/", "dir"),
 	inputbox("Battery", "batt", user.batt, "BAT0"),
 	inputbox("Password", "passwd", user.passwd, "awesomewm"),
 	toggle("Lock at Login", "sessionlock", user.sessionlock),
