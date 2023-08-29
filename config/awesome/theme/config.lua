@@ -431,8 +431,8 @@ local command = wibox.widget {
 
 local theme = wibox.widget {
 	guiselect("Profile Picture", "pfp", user.pfp, nil, "file"),
-	inputbox("Font", "font", user.font, "RobotoMono Bold 11"),
-	inputbox("Alt Font", "fontalt", user.fontalt, "RobotoMono Italic Bold 11"),
+	inputbox("Font", "font", user.font, "Roboto Mono Bold 11"),
+	inputbox("Alt Font", "fontalt", user.fontalt, "Roboto Mono 11"),
 	inputbox("Icon Font", "fonticon", user.fonticon, "Material Icons 16"),
 	toggle("Titlebar Controls", "titlecontrols", user.titlecontrols),
 	toggle("Panel Controls", "panelcontrols", user.panelcontrols),
