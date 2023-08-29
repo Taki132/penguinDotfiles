@@ -23,5 +23,9 @@ screen.connect_signal("request::desktop_decoration", function(s)
     	})
 	end)
 
+if user.jtag then
     awful.tag({ "一", "二", "三", "四", "五", "六" }, s, awful.layout.layouts[1])
+else
+    awful.tag({ "1", "2", "3", "4", "5", "6" }, s, awful.layout.layouts[1])
+end
 end)

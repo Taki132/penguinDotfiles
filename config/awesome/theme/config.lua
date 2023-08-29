@@ -400,6 +400,7 @@ local general = wibox.widget {
 	inputbox("Battery", "batt", user.batt, "BAT0"),
 	inputbox("Password", "passwd", user.passwd, "awesomewm"),
 	toggle("Lock at Login", "sessionlock", user.sessionlock),
+	toggle("Japanese Tag List", "jtag", user.jtag),
 	visible = true,
 	spacing = dpi(15),
 	layout = wibox.layout.fixed.vertical
