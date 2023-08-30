@@ -8,7 +8,7 @@ local dpi = beautiful.xresources.apply_dpi
 
 local launcherdisplay = wibox {
 	width = dpi(400),
-	height = dpi(400),
+	height = dpi(430),
 	bg = beautiful.bg_normal,
 	ontop = true,
 	visible = false
