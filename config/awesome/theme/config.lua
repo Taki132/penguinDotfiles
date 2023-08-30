@@ -397,8 +397,8 @@ local color = wibox.widget {
 
 local general = wibox.widget {
 	inputbox("Battery", "batt", user.batt, "BAT0"),
-	inputbox("Password", "passwd", user.passwd, "123"),
-	toggle("Lock at Login", "sessionlock", user.sessionlock),
+	toggle("Titlebar Controls", "titlecontrols", user.titlecontrols),
+	toggle("Japanese Tag List", "jtag", user.jtag),
 	visible = true,
 	spacing = dpi(15),
 	layout = wibox.layout.fixed.vertical
@@ -416,7 +416,7 @@ local app = wibox.widget {
 -- Commands
 
 local command = wibox.widget {
-	inputbox("Lock", "lock", user.lock, "awesome-client command \"lockscreen()\""),
+	inputbox("Lock", "lock", user.lock, "~/.config/awesome/scripts/blur-lock"),
 	inputbox("Exit", "exit", user.exit, "awesome-client command \"awesome.quit()\""),
 	inputbox("Suspend", "suspend", user.suspend, "systemctl suspend"),
 	inputbox("Shutdown", "shutdown", user.shutdown, "systemctl poweroff"),
@@ -433,8 +433,6 @@ local theme = wibox.widget {
 	inputbox("Font", "font", user.font, "Roboto Mono Bold 11"),
 	inputbox("Alt Font", "fontalt", user.fontalt, "Roboto Mono 11"),
 	inputbox("Icon Font", "fonticon", user.fonticon, "Material Icons 16"),
-	toggle("Titlebar Controls", "titlecontrols", user.titlecontrols),
-	toggle("Japanese Tag List", "jtag", user.jtag),
 	visible = false,
 	spacing = dpi(15),
 	layout = wibox.layout.fixed.vertical
