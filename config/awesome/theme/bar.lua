@@ -17,7 +17,7 @@ local menu = hovercursor(wibox.widget {
 
 -- Clock
 
-local clock = wibox.widget.textclock('%I:%M %p')
+local clock = wibox.widget.textclock('%a, %b %d %Y | %I:%M %p')
 
 -- Screen
 
@@ -74,8 +74,8 @@ screen.connect_signal("request::desktop_decoration", function(s)
     -- Panel
 
     s.wibar = awful.wibar {
-		position = "top",
-		height = dpi(32),
+		position = "bottom",
+		height = dpi(42),
 		bg = beautiful.bg_normal,
 		fg = beautiful.fg_normal,
         screen = s,
@@ -97,7 +97,7 @@ screen.connect_signal("request::desktop_decoration", function(s)
 				},
 				layout = wibox.layout.align.horizontal
 			},
-			margins = dpi(8),
+			margins = dpi(12),
 			widget = wibox.container.margin
         }
     }

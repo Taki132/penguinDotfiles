@@ -103,7 +103,7 @@ local profile = wibox.widget {
 -- Calendar
 
 local date = wibox.widget {
-	format = "%A %B %d, %Y",
+	format = "%A, %B %d %Y",
 	widget = wibox.widget.textclock
 }
 
@@ -608,14 +608,14 @@ local launcher = hovercursor(wibox.widget {
 	{
 		{
 			{
-				text = "",
+				text = "$",
 				font = user.fonticon,
 				valign = "center",
 				align = "center",
 				widget = wibox.widget.textbox
 			},
 			{
-				text = "Search...",
+				text = "Launch...",
 				valign = "center",
 				align = "center",
 				widget = wibox.widget.textbox
