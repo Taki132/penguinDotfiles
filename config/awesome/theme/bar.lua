@@ -19,53 +19,6 @@ local menu = hovercursor(wibox.widget {
 
 local clock = wibox.widget.textclock('%I:%M %p')
 
--- Window controls
-
-local minimize = hovercursor(wibox.widget {
-	image = beautiful.minimize,
-	buttons = {
-		awful.button({ }, 1, function()
-			client.focus.minimized = true
-		end)
-	},
-	widget = wibox.widget.imagebox
-})
-
-local maximize = hovercursor(wibox.widget {
-	image = beautiful.maximize,
-	buttons = {
-		awful.button({ }, 1, function()
-			client.focus.maximized = not client.focus.maximized
-		end)
-	},
-	widget = wibox.widget.imagebox
-})
-
-local close = hovercursor(wibox.widget {
-	image = beautiful.close,
-	buttons = {
-		awful.button({ }, 1, function()
-			client.focus:kill()
-		end)
-	},
-	widget = wibox.widget.imagebox
-})
-
-if user.panelcontrols then
-	controlspanel = wibox.widget {
-		{
-			minimize,
-			maximize,
-			close,
-			spacing = dpi(15),
-			layout = wibox.layout.fixed.horizontal
-		},
-		top = dpi(4),
-		bottom = dpi(4),
-		widget = wibox.container.margin
-	}
-end
-
 -- Screen
 
 screen.connect_signal("request::desktop_decoration", function(s)

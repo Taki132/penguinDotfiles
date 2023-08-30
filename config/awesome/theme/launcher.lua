@@ -193,7 +193,7 @@ local function open()
 	-- Prompt
 
 	awful.prompt.run {
-		prompt = "Launch ",
+		prompt = "$ ",
 		textbox = prompt,
 		done_callback = function() 
 			launcherdisplay.visible = false 

@@ -560,7 +560,7 @@ local power = wibox.widget {
 	button{ icon="", exec=user.shutdown },
 	button{ icon="", exec=user.reboot },
 	forced_height = dpi(3),
-	spacing = dpi(10),
+	spacing = dpi(15),
 	layout = wibox.layout.flex.horizontal
 }
 
@@ -598,7 +598,7 @@ local systray = wibox.widget {
 local shortcuts = wibox.widget {
 	power,
 	systray,
-	spacing = dpi(10),
+	spacing = dpi(15),
 	layout = wibox.layout.flex.vertical
 }
 
