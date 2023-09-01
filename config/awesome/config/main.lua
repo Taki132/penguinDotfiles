@@ -20,6 +20,9 @@ screen.connect_signal("request::desktop_decoration", function(s)
 			awful.layout.suit.tile,
 			awful.layout.suit.floating,
 			awful.layout.suit.max,
+			awful.layout.suit.spiral.dwindle,
+			awful.layout.suit.fair,
+
     	})
 	end)
 

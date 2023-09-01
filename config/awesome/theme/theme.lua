@@ -97,6 +97,8 @@ theme.pfp = user.pfp or gears.color.recolor_image(icon_path .. "pfp.png", color.
 theme.layout_floating  = gears.color.recolor_image(icon_path .. "floating.png", color.fg)
 theme.layout_max	   = gears.color.recolor_image(icon_path .. "max.png", color.fg)
 theme.layout_tile	   = gears.color.recolor_image(icon_path .. "tile.png", color.fg)
+theme.layout_dwindle	   = gears.color.recolor_image(icon_path .. "dwindle.png", color.fg)
+theme.layout_fairv	   = gears.color.recolor_image(icon_path .. "fairv.png", color.fg)
 
 -- Titlebar icons
 
