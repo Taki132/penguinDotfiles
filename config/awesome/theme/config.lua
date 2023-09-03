@@ -419,8 +419,8 @@ local command = wibox.widget {
 	inputbox("Lock", "lock", user.lock, "~/.config/awesome/scripts/blur-lock"),
 	inputbox("Exit", "exit", user.exit, "awesome-client command \"awesome.quit()\""),
 	inputbox("Suspend", "suspend", user.suspend, "systemctl suspend"),
-	inputbox("Shutdown", "shutdown", user.shutdown, "poweroff"),
-	inputbox("Reboot", "reboot", user.reboot, "reboot"),
+	inputbox("Shutdown", "shutdown", user.shutdown, "systemctl poweroff"),
+	inputbox("Reboot", "reboot", user.reboot, "systemctl reboot"),
 	visible = false,
 	spacing = dpi(15),
 	layout = wibox.layout.fixed.vertical
