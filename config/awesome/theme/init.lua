@@ -18,7 +18,7 @@ function hovercursor(widget)
 end
 
 require("theme.bar")
-require("theme.title")
+require("theme.titlebar")
 require("theme.notify")
 require("theme.volume")
 require("theme.brightness")
