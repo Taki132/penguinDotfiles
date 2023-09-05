@@ -629,7 +629,7 @@ local launcher = hovercursor(wibox.widget {
 	buttons = {
 		awful.button({}, 1, function()
 			awesome.emit_signal("widget::menu")
-			awesome.emit_signal("widget::launcher")
+			awful.spawn.with_shell("rofi -show drun -theme ~/.config/awesome/theme/rofi.rasi")
 		end)
 	},
 	forced_height = dpi(65),

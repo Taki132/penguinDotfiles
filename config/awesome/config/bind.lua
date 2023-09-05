@@ -64,7 +64,7 @@ awful.keyboard.append_global_keybindings({
 	),
     awful.key(
 		{ mod }, "d", function() 
-			awesome.emit_signal("widget::launcher")
+			awful.spawn.with_shell("rofi -show drun -theme ~/.config/awesome/theme/rofi.rasi")
 		end,
         { description = "show launcher", group = "awesome" }
 	),
