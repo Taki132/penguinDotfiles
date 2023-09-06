@@ -697,14 +697,14 @@ local notifsempty = wibox.widget {
 	{
 		nil,
 		{
-			text = "No Notifications",
+			text = "Nothing here! ＵｗＵ",
 			align = "center",
 			valign = "center",
 			widget = wibox.widget.textbox
 		},
 		layout = wibox.layout.align.horizontal
 	},
-	forced_height = dpi(1000), --fix this?
+	forced_height = dpi(1000),
 	layout = wibox.layout.align.vertical
 }
 
