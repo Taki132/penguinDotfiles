@@ -33,7 +33,7 @@ window {
 // prompt
 prompt {
     enabled: 						true;
-	padding: 						-0.7% 1% 0% 0%;
+	padding: 						-1% 0% 0% 0%;
 	background-color: 				@background-alt;
 	text-color: 					@foreground;
 	font:							"Roboto Mono Bold 18";
@@ -45,7 +45,7 @@ entry {
     text-color:                     @foreground;
     placeholder-color:              @foreground;
     expand:                         true;
-    horizontal-align:               0;
+    horizontal-align:               0.45;
     placeholder:                    "Search";
     padding:                        0.10% 0% 0% 0%;
     blink:                          true;
