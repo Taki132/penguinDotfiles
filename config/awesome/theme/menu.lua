@@ -554,9 +554,9 @@ end
 -- Power
 
 local power = wibox.widget {
-	button{ icon="", exec=user.lock },
+	button{ icon="", exec=user.lock },
 	button{ icon="", exec=user.exit },
-  button{ icon="", exec=user.suspend },
+  button{ icon="", exec=user.suspend },
 	button{ icon="", exec=user.shutdown },
 	button{ icon="", exec=user.reboot },
 	forced_height = dpi(3),
@@ -608,7 +608,7 @@ local launcher = hovercursor(wibox.widget {
 	{
 		{
 			{
-				text = "$",
+				text = "",
 				font = user.fonticon,
 				valign = "center",
 				align = "center",
