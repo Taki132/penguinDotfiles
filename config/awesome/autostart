@@ -8,6 +8,9 @@ run() {
 
 run /usr/bin/prime-offload
 
+# Screen settings
+run ~/.screenlayout/monitor.sh
+
 # Compositor
 run picom
 
