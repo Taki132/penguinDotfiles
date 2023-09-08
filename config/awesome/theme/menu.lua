@@ -932,7 +932,7 @@ awesome.connect_signal("widget::menu", function()
 		uptime.text = out:gsub("up ", "")
 	end)
 
-	awful.spawn.easy_async_with_shell([[getent passwd | grep "$USER" | cut -d":" -f5 | cut -d"," -f1]], function(out)
+	awful.spawn.easy_async_with_shell("whoami", function(out)
 		username.text = out:gsub("\n", "")
 	end)
 	awful.spawn.easy_async_with_shell("hostname", function(out)
