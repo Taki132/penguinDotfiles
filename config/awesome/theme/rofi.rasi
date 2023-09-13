@@ -1,5 +1,5 @@
 configuration {
-	font:							"Roboto Bold 11";
+	font:							"Roboto Mono Bold 11";
     show-icons:                     true;
 	icon-theme: 					"Qogir";
     display-drun: 					"";
