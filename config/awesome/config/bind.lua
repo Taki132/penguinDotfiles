@@ -82,7 +82,7 @@ awful.keyboard.append_global_keybindings({
 	),
     awful.key(
 		{ mod }, "grave", function() 
-			awful.spawn.with_shell("librewolf https://github.com/p3nguin-kun/dotfiles/wiki/Keybindings-and-commands")
+			awful.spawn.with_shell("firefox https://github.com/p3nguin-kun/penguinRice/wiki/Keybindings-and-commands")
 		end,
         { description = "wiki", group = "awesome" }
 	),
