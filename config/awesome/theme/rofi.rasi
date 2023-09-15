@@ -2,7 +2,7 @@ configuration {
 	font:							"Roboto Mono Bold 11";
     show-icons:                     true;
 	icon-theme: 					"Qogir";
-    display-drun: 					"";
+    display-drun: 					" ";
     drun-display-format:            "{name}";
     disable-history:                false;
 	sidebar-mode: 					false;
