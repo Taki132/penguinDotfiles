@@ -9,7 +9,7 @@ local dpi = beautiful.xresources.apply_dpi
 
 local menudisplay = wibox {
 	width = dpi(375),
-	height = dpi(655),
+	height = dpi(480),
 	bg = beautiful.bg_normal,
 	ontop = true,
 	visible = false
@@ -59,40 +59,19 @@ local username = wibox.widget {
 	widget = wibox.widget.textbox
 }
 
-local host = wibox.widget {
-	text = "@host",
-	font = user.fontalt,
-	widget = wibox.widget.textbox
-}
-
 local profile = wibox.widget {
-	{
-		{
-			pfp,
-			margins = dpi(10),
-			widget = wibox.container.margin
-		},
-		bg = beautiful.bg_focus,
-		forced_height = dpi(85),
-		widget = wibox.container.background
-	},
 	{
 		{
 			{
 				username,
 				nil,
-				{
-					host,
-					fg = beautiful.fg_normal .. "75",
-					widget = wibox.container.background
-				},
 				layout = wibox.layout.align.vertical
 			},
-			margins = dpi(15),
+			margins = dpi(12),
 			widget = wibox.container.margin
 		},
-		forced_height = dpi(85),
-		forced_width = dpi(185),
+		forced_height = dpi(40),
+		forced_width = dpi(285),
 		bg = beautiful.bg_focus,
 		widget = wibox.container.background
 	},
@@ -123,10 +102,10 @@ local calendar = wibox.widget {
 			},
 			layout = wibox.layout.align.vertical
 		},
-		margins = dpi(15),
+		margins = dpi(12),
 		widget = wibox.container.margin
 	},
-	forced_height = dpi(85),
+	forced_height = dpi(65),
 	bg = beautiful.bg_focus,
 	widget = wibox.container.background
 }
@@ -192,7 +171,7 @@ local player = wibox.widget {
 				prev,
 				play,
 				next,
-				spacing = dpi(15),
+				spacing = dpi(10),
 				layout = wibox.layout.fixed.vertical
 			},
 			{
@@ -210,13 +189,13 @@ local player = wibox.widget {
 				expand = "none",
 				layout = wibox.layout.align.vertical
 			},
-			spacing = dpi(15),
+			spacing = dpi(10),
 			layout = wibox.layout.fixed.horizontal
 		},
-		margins = dpi(15),
+		margins = dpi(10),
 		widget = wibox.container.margin
 	},
-	forced_height = dpi(125),
+	forced_height = dpi(100),
 	bg = beautiful.bg_focus,
 	widget = wibox.container.background
 }
@@ -227,7 +206,7 @@ local wifibutton = hovercursor(wibox.widget {
 	text = "",
 	font = user.fonticon,
 	align = "center",
-	forced_height = dpi(45),
+	forced_height = dpi(40),
 	forced_width = dpi(85),
 	widget = wibox.widget.textbox
 })
@@ -272,7 +251,7 @@ local btbutton = hovercursor(wibox.widget {
 	text = "",
 	font = user.fonticon,
 	align = "center",
-	forced_height = dpi(45),
+	forced_height = dpi(40),
 	forced_width = dpi(85),
 	widget = wibox.widget.textbox
 })
@@ -317,7 +296,7 @@ local dndbutton = hovercursor(wibox.widget {
 	text = "",
 	font = user.fonticon,
 	align = "center",
-	forced_height = dpi(45),
+	forced_height = dpi(40),
 	forced_width = dpi(85),
 	widget = wibox.widget.textbox
 })
@@ -385,7 +364,7 @@ local volume = wibox.widget	{
 				{
 				volumebar,
 				direction = "east",
-				forced_height = dpi(105),
+				forced_height = dpi(55),
 				widget = wibox.container.rotate
 			},
 			left = dpi(19),
@@ -401,7 +380,7 @@ local volume = wibox.widget	{
 		bottom = dpi(5),
 		widget = wibox.container.margin
 	},
-	forced_height = dpi(185),
+	forced_height = dpi(125),
 	bg = beautiful.bg_focus,
 	widget = wibox.container.background
 }
@@ -440,7 +419,7 @@ local brightness = wibox.widget {
 				{
 				brightnessbar,
 				direction = "east",
-				forced_height = dpi(105),
+				forced_height = dpi(55),
 				widget = wibox.container.rotate
 			},
 			left = dpi(19),
@@ -456,7 +435,7 @@ local brightness = wibox.widget {
 		bottom = dpi(5),
 		widget = wibox.container.margin
 	},
-	forced_height = dpi(185),
+	forced_height = dpi(125),
 	bg = beautiful.bg_focus,
 	widget = wibox.container.background
 }
@@ -495,7 +474,7 @@ local battery = wibox.widget {
 				{
 				batterybar,
 				direction = "east",
-				forced_height = dpi(105),
+				forced_height = dpi(55),
 				widget = wibox.container.rotate
 			},
 			left = dpi(19),
@@ -511,7 +490,7 @@ local battery = wibox.widget {
 		bottom = dpi(5),
 		widget = wibox.container.margin
 	},
-	forced_height = dpi(185),
+	forced_height = dpi(125),
 	bg = beautiful.bg_focus,
 	widget = wibox.container.background
 }
@@ -559,7 +538,7 @@ local power = wibox.widget {
   button{ icon="", exec=user.suspend },
 	button{ icon="", exec=user.shutdown },
 	button{ icon="", exec=user.reboot },
-	forced_height = dpi(3),
+	forced_height = dpi(40),
 	spacing = dpi(15),
 	layout = wibox.layout.flex.horizontal
 }
@@ -572,7 +551,7 @@ local systray = wibox.widget {
 			{
 				{
 					widget = wibox.widget.systray,
-					base_size = dpi(24),
+					base_size = dpi(128),
 					horizontal = false
 				},
 				widget = wibox.layout.flex.horizontal
@@ -581,14 +560,14 @@ local systray = wibox.widget {
 			halign = "left",
 			layout = wibox.container.place
 		},
-		top = dpi(12),
-		bottom = dpi(12),
-		left = dpi(12),
-		right = dpi(12),
+		top = dpi(10),
+		bottom = dpi(10),
+		left = dpi(10),
+		right = dpi(10),
 		widget = wibox.container.margin
 	},
 	forced_width = dpi(165),
-	forced_height = dpi(105),
+	forced_height = dpi(45),
 	bg = beautiful.bg_focus,
 	widget = wibox.container.background
 }
@@ -599,70 +578,7 @@ local shortcuts = wibox.widget {
 	power,
 	systray,
 	spacing = dpi(15),
-	layout = wibox.layout.flex.vertical
-}
-
--- Widgets
-
-local launcher = hovercursor(wibox.widget {
-	{
-		{
-			{
-				text = "",
-				font = user.fonticon,
-				valign = "center",
-				align = "center",
-				widget = wibox.widget.textbox
-			},
-			{
-				text = "Launch...",
-				valign = "center",
-				align = "center",
-				widget = wibox.widget.textbox
-			},
-			spacing = dpi(15),
-			layout = wibox.layout.fixed.horizontal
-		},
-		margins = dpi(15),
-		widget = wibox.container.margin
-	},
-	buttons = {
-		awful.button({}, 1, function()
-			awesome.emit_signal("widget::menu")
-			awful.spawn.with_shell("rofi -show drun -theme ~/.config/awesome/theme/rofi.rasi")
-		end)
-	},
-	forced_height = dpi(65),
-	forced_width = dpi(185),
-	bg = beautiful.bg_focus,
-	widget = wibox.container.background
-})
-
-local config = hovercursor(wibox.widget {
-	{
-		text = "",
-		font = user.fonticon,
-		valign = "center",
-		align = "center",
-		widget = wibox.widget.textbox
-	},
-	buttons = {
-		awful.button({}, 1, function()
-			awesome.emit_signal("widget::menu")
-			awesome.emit_signal("widget::config")
-		end)
-	},
-	forced_height = dpi(65),
-	forced_width = dpi(85),
-	bg = beautiful.bg_focus,
-	widget = wibox.container.background
-})
-
-local widgets = wibox.widget {
-	launcher,
-	config,
-	spacing = dpi(15),
-	layout = wibox.layout.fixed.horizontal
+	layout = wibox.layout.fixed.vertical
 }
 
 -- Control center
@@ -674,7 +590,6 @@ local controlcenter = wibox.widget {
 		player,
 		toggles,
 		shortcuts,
-		widgets,
 		spacing = dpi(15),
 		forced_width = dpi(285),
 		layout = wibox.layout.fixed.vertical
@@ -932,11 +847,8 @@ awesome.connect_signal("widget::menu", function()
 		uptime.text = out:gsub("up ", "")
 	end)
 
-	awful.spawn.easy_async_with_shell("whoami", function(out)
+	awful.spawn.easy_async_with_shell("whoami;printf @;hostname", function(out)
 		username.text = out:gsub("\n", "")
-	end)
-	awful.spawn.easy_async_with_shell("hostname", function(out)
-		host.text = "@" .. out
 	end)
 
 	wifistatus()

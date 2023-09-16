@@ -4,10 +4,11 @@ local beautiful = require("beautiful")
 local dpi = beautiful.xresources.apply_dpi
 
 local configdisplay = wibox {
-	width = dpi(830),
-	height = dpi(670),
+	width = dpi(640),
+	height = dpi(540),
 	bg = beautiful.bg_normal,
-	visible = false
+	visible = false,
+  ontop = true,
 }
 
 local header = wibox.widget	{
@@ -82,7 +83,7 @@ local function toggle(name, varname, var)
 
 	local button = hovercursor(wibox.widget {
 		text,
-		forced_width = dpi(90),
+		forced_width = dpi(60),
 		forced_height = dpi(50),
 		bg = beautiful.bg_focus,
 		widget = wibox.container.background
@@ -145,8 +146,8 @@ local function inputbox(name, varname, var, default)
 				input()
 			end)
 		},
-		forced_height = dpi(50),
-		forced_width = dpi(415),
+		forced_height = dpi(30),
+		forced_width = dpi(200),
 		bg = beautiful.bg_focus,
 		widget = wibox.container.background
 	})
@@ -215,7 +216,7 @@ local function guiselect(name, varname, var, default, class)
 			margins = dpi(15),
 			widget = wibox.container.margin
 		},
-		forced_width = dpi(415),
+		forced_width = dpi(200),
 		bg = beautiful.bg_focus,
 		widget = wibox.container.background
 	}
@@ -384,7 +385,7 @@ local color = wibox.widget {
 			widget = wibox.container.margin
 		},
 		forced_height = dpi(50),
-		forced_width = dpi(415),
+		forced_width = dpi(200),
 		bg = beautiful.bg_focus,
 		widget = wibox.container.background
 	},
@@ -429,7 +430,6 @@ local command = wibox.widget {
 -- Theme
 
 local theme = wibox.widget {
-	guiselect("Profile Picture", "pfp", user.pfp, nil, "file"),
 	inputbox("Font", "font", user.font, "Roboto Mono Bold 11"),
 	inputbox("Alt Font", "fontalt", user.fontalt, "Roboto Mono Bold 11"),
 	inputbox("Icon Font", "fonticon", user.fonticon, "Material Icons 16"),
@@ -465,7 +465,7 @@ local function addtab(name)
             widget = wibox.widget.textbox
         },
         forced_height = dpi(50),
-        forced_width = dpi(150),
+        forced_width = dpi(80),
         bg = tabbg,
         widget = wibox.container.background
     })

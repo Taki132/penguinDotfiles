@@ -88,10 +88,6 @@ theme.systray_max_rows		= 3
 theme.notification_spacing  = dpi(10)
 theme.tooltip_opacity       = 0
 
--- Profile picture
-
-theme.pfp = user.pfp or gears.color.recolor_image(icon_path .. "pfp.png", color.fg)
-
 -- Layout icons
 
 theme.layout_floating  = gears.color.recolor_image(icon_path .. "floating.png", color.fg)
