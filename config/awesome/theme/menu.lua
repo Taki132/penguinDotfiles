@@ -581,9 +581,9 @@ local shortcuts = wibox.widget {
 	layout = wibox.layout.fixed.vertical
 }
 
--- Control center
+-- Dashboard
 
-local controlcenter = wibox.widget {
+local dashboard = wibox.widget {
 	{
 		profile,
 		calendar,
@@ -733,7 +733,7 @@ menudisplay:setup {
 		{
 			{
 				notifs,
-				controlcenter,
+				dashboard,
 				layout = wibox.layout.stack
 			},
 			margins = dpi(15),
@@ -747,16 +747,16 @@ menudisplay:setup {
 
 menutoggle:buttons {
 	awful.button({}, 1, function()
-		if controlcenter.visible then
+		if dashboard.visible then
 			menutoggle.text = ""
 			headertext.text = "Notifications"
 			notifs.visible = true
-			controlcenter.visible = false
+			dashboard.visible = false
 		else
 			menutoggle.text = ""
-			headertext.text = "Control Center"
+			headertext.text = "Dashboard"
 			notifs.visible = false
-			controlcenter.visible = true
+			dashboard.visible = true
 		end
 	end)
 }
@@ -839,9 +839,9 @@ awesome.connect_signal("widget::menu", function()
 	menudisplay.visible = not menudisplay.visible
 
 	menutoggle.text = ""
-	headertext.text = "Control Center"
+	headertext.text = "Dashboard"
 	notifs.visible = false
-	controlcenter.visible = true
+	dashboard.visible = true
 
 	awful.spawn.easy_async_with_shell("uptime -p", function(out)
 		uptime.text = out:gsub("up ", "")
