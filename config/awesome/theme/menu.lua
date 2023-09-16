@@ -373,7 +373,7 @@ local volume = wibox.widget	{
 			},
 			volumepercent,
 			forced_width = dpi(20),
-			spacing = dpi(10),
+			spacing = dpi(5),
 			layout = wibox.layout.fixed.vertical
 		},
 		top = dpi(10),
@@ -428,7 +428,7 @@ local brightness = wibox.widget {
 			},
 			brightnesspercent,
 			forced_width = dpi(20),
-			spacing = dpi(10),
+			spacing = dpi(5),
 			layout = wibox.layout.fixed.vertical
 		},
 		top = dpi(10),
@@ -483,7 +483,7 @@ local battery = wibox.widget {
 			},
 			batterypercent,
 			forced_width = dpi(20),
-			spacing = dpi(10),
+			spacing = dpi(5),
 			layout = wibox.layout.fixed.vertical
 		},
 		top = dpi(10),
