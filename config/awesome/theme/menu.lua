@@ -67,7 +67,7 @@ local profile = wibox.widget {
 				nil,
 				layout = wibox.layout.align.vertical
 			},
-			margins = dpi(12),
+			margins = dpi(10),
 			widget = wibox.container.margin
 		},
 		forced_height = dpi(40),
@@ -102,7 +102,7 @@ local calendar = wibox.widget {
 			},
 			layout = wibox.layout.align.vertical
 		},
-		margins = dpi(12),
+		margins = dpi(10),
 		widget = wibox.container.margin
 	},
 	forced_height = dpi(65),
