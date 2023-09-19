@@ -15,9 +15,9 @@ M="#d7a0e6"
 C="#a0e1d2"
 
 # func (change colors in #Colors section)
-term 
-# func - gtk - icons 
-gtk "bloom" "Qogir" 
+term
+# func - gtk - icons
+gtk "wave" "Qogir"
 # wall
-cp ~/.config/awesome/color/bloom/.fehbg ~/
+cp ~/.config/awesome/color/wave/.fehbg ~/
 ./.fehbg
