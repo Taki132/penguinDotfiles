@@ -19,5 +19,5 @@ term
 # func - gtk - icons
 gtk "vapor" "Qogir"
 # wall
-cp ~/.config/awesome/color/macintosh/.fehbg ~/
+cp ~/.config/awesome/color/vaporwave/.fehbg ~/
 ./.fehbg

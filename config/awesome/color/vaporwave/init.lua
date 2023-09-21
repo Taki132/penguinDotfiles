@@ -1,4 +1,4 @@
-local theme_path = require("gears").filesystem.get_configuration_dir() .. "color/macintosh/"
+local theme_path = require("gears").filesystem.get_configuration_dir() .. "color/vaporwave/"
 local color = {}
 
 color.bg = "#f3f3f3"
