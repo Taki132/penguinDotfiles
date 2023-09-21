@@ -4,20 +4,20 @@ source $HOME/.config/awesome/color/desktop.sh
 
 # Colors
 BG="#f3f3f3"
-FG="#000000"
+FG="#424153"
 BL="#4b4646"
 WH="#dddddd"
-R="#e70000"
+R="#996633"
 G="#0abf0a"
 Y="#dada00"
-B="#0000ff"
+B="#333399"
 M="#d7a0e6"
-C="#8080ff"
+C="#999999"
 
 # func (change colors in #Colors section)
-term 
-# func - gtk - icons 
-gtk "macintosh" "Qogir" 
+term
+# func - gtk - icons
+gtk "vapor" "Qogir"
 # wall
 cp ~/.config/awesome/color/macintosh/.fehbg ~/
 ./.fehbg
