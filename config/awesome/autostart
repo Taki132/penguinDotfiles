@@ -1,8 +1,8 @@
 #!/bin/sh
 
 run() {
-	if ! pgrep -f "$1" ; then
-		"$@"&
+	if ! pgrep -f "$1"; then
+		"$@" &
 	fi
 }
 
@@ -31,6 +31,9 @@ run xrdb merge .Xresources
 
 # Ibus daemon
 run ibus-daemon -drx
+
+# Auto lock
+run xss-lock -- ~/.config/awesome/scripts/blur-lock
 
 # Other
 xsetroot -cursor_name left_ptr
