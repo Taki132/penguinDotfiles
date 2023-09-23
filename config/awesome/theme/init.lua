@@ -4,7 +4,9 @@ function hovercursor(widget)
 	local oldcursor, oldwibox
 	widget:connect_signal("mouse::enter", function()
 		local wb = mouse.current_wibox
-		if wb == nil then return end
+		if wb == nil then
+			return
+		end
 		oldcursor, oldwibox = wb.cursor, wb
 		wb.cursor = "hand2"
 	end)
