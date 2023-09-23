@@ -26,9 +26,6 @@ run ./.fehbg
 # Xresources
 run xrdb merge .Xresources
 
-# Low battery notifier
-~/.config/awesome/scripts/low_bat_notifier.sh
-
 # Ibus daemon
 run ibus-daemon -drx
 
