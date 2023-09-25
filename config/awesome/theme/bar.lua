@@ -17,7 +17,7 @@ local menu = hovercursor(wibox.widget({
 
 -- Clock
 
-local clock = wibox.widget.textclock("%a, %b %d %I:%M %p")
+local clock = wibox.widget.textclock("%a %I:%M %p")
 
 -- Screen
 
