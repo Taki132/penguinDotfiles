@@ -1,5 +1,5 @@
 configuration {
-	font:							"Roboto Mono Bold 11";
+	font:							"Cascadia Code 11";
     show-icons:                     true;
 	icon-theme: 					"Qogir";
     display-drun: 					" ";
