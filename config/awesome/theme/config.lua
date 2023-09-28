@@ -427,8 +427,8 @@ local command = wibox.widget({
 -- Theme
 
 local theme = wibox.widget({
-	inputbox("Font", "font", user.font, "Roboto Mono Bold 11"),
-	inputbox("Alt Font", "fontalt", user.fontalt, "Roboto Mono Bold 11"),
+	inputbox("Font", "font", user.font, "Cascadia Code Bold 11"),
+	inputbox("Alt Font", "fontalt", user.fontalt, "Cascadia Code 11"),
 	inputbox("Icon Font", "fonticon", user.fonticon, "Material Icons 16"),
 	visible = false,
 	spacing = dpi(15),
