@@ -109,22 +109,22 @@ awesome.connect_signal("widget::brightness", function()
 	timer:again()
 
 	if client.focus and client.focus.fullscreen == true then
-		awful.placement.bottom_right(
+		awful.placement.top_right(
 			brightnessdisplay, 
 			{
 				margins = { 
-					bottom = dpi(10), 
+					top = dpi(10), 
 					right = dpi(10)
 				}, 
 				parent = awful.screen.focused()
 			}
 		)
 	else
-		awful.placement.bottom_right(
+		awful.placement.top_right(
 			brightnessdisplay, 
 			{
 				margins = { 
-					bottom = dpi(50),
+					top = dpi(48),
 					right = dpi(10)
 				}, 
 				parent = awful.screen.focused()

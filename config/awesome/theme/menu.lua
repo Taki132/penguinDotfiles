@@ -849,17 +849,17 @@ awesome.connect_signal("widget::menu", function()
 	btstatus()
 
 	if client.focus and client.focus.fullscreen == true then
-		awful.placement.bottom_left(menudisplay, {
+		awful.placement.top_left(menudisplay, {
 			margins = {
-				bottom = dpi(10),
+				top = dpi(10),
 				left = dpi(10),
 			},
 			parent = awful.screen.focused(),
 		})
 	else
-		awful.placement.bottom_left(menudisplay, {
+		awful.placement.top_left(menudisplay, {
 			margins = {
-				bottom = dpi(54),
+				top = dpi(48),
 				left = dpi(10),
 			},
 			honor_workarea = true,
