@@ -8,7 +8,7 @@ st.borderpx:          32
 #st.borderpx:          32
 #Xft.dpi: 120
 
-
+# Colors
 #define BG #101010
 #define FG #f8f8f6
 #define BL #242424
