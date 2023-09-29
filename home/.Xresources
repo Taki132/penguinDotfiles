@@ -1,5 +1,15 @@
-st.font:              Cascadia Code:pixelsize=16:antialias=true:autohint=true;
+# Normal
+st.font:              Cascadia Code:pixelsize=16:antialias=true:autohint=true
 st.borderpx:          32
+
+# Xft.dpi: 120
+
+# For HiDPI screens
+#st.font:              Cascadia Code:pixelsize=22:antialias=true:autohint=true
+#st.borderpx:          32
+
+#Xft.dpi: 120
+
 
 #define BG #101010
 #define FG #f8f8f6
