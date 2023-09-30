@@ -80,7 +80,7 @@ theme.snapper_gap = dpi(16)
 
 -- Misc
 
-theme.useless_gap           = dpi(8)
+theme.useless_gap           = dpi(5)
 theme.border_width          = dpi(0)
 theme.bg_systray    	    = color.bgalt
 theme.systray_icon_spacing  = dpi(20)
