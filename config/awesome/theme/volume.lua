@@ -129,7 +129,7 @@ awesome.connect_signal("widget::volume", function()
 			volumedisplay, 
 			{
 				margins = { 
-					top = dpi(48),
+					top = dpi(42),
 					right = dpi(10)
 				}, 
 				parent = awful.screen.focused()

@@ -859,7 +859,7 @@ awesome.connect_signal("widget::menu", function()
 	else
 		awful.placement.top_left(menudisplay, {
 			margins = {
-				top = dpi(48),
+				top = dpi(42),
 				left = dpi(10),
 			},
 			honor_workarea = true,

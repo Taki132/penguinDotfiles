@@ -27,5 +27,4 @@ require("theme")
 require("awful").spawn.with_shell("~/.screenlayout/monitor.sh")
 
 -- Autostart
-
 require("awful").spawn.with_shell("~/.config/awesome/autostart")

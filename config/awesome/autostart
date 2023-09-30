@@ -27,7 +27,7 @@ run ./.fehbg
 run xrdb merge ~/.Xresources
 
 # Ibus daemon
-run ibus-daemon -drx
+ibus-daemon -drx
 
 # Auto lock
 run xss-lock -- ~/.config/awesome/bin/blur-lock
