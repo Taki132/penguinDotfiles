@@ -24,7 +24,7 @@ xrdb merge ~/.Xresources
 ibus-daemon -drx
 
 # Auto lock
-xss-lock -- ~/.config/awesome/scripts/blur-lock
+xss-lock -- ~/.config/awesome/bin/blur-lock
 
 # Syncthing
 syncthing --no-browser
