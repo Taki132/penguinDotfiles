@@ -102,38 +102,38 @@ awful.keyboard.append_global_keybindings({
 
 	awful.key(
 		{ mod }, "Delete", function() 
-			awful.spawn.with_shell("~/.config/awesome/scripts/screenshot") 
+			awful.spawn.with_shell("~/.config/awesome/bin/screenshot") 
 		end,
         { description = "full screen", group = "screenshot" }
 	),
 	awful.key(
 		{ mod, "Control" }, "Delete", function()
-			awful.spawn.with_shell("~/.config/awesome/scripts/screenshot-delay")
+			awful.spawn.with_shell("~/.config/awesome/bin/screenshot-delay")
 		end,
         { description = "full screen delay", group = "screenshot" }
 	),
 	awful.key(
 		{ mod, "Shift" }, "Delete", function() 
-			awful.spawn.with_shell("~/.config/awesome/scripts/screenshot-select") 
+			awful.spawn.with_shell("~/.config/awesome/bin/screenshot-select") 
 		end,
         { description = "part screen", group = "screenshot" }
 	),
 
   awful.key(
 		{ }, "Print", function() 
-			awful.spawn.with_shell("~/.config/awesome/scripts/screenshot") 
+			awful.spawn.with_shell("~/.config/awesome/bin/screenshot") 
 		end,
         { description = "full screen", group = "screenshot" }
 	),
 	awful.key(
 		{ "Control" }, "Print", function()
-			awful.spawn.with_shell("~/.config/awesome/scripts/screenshot-delay")
+			awful.spawn.with_shell("~/.config/awesome/bin/screenshot-delay")
 		end,
         { description = "full screen delay", group = "screenshot" }
 	),
 	awful.key(
 		{ "Shift" }, "Print", function() 
-			awful.spawn.with_shell("~/.config/awesome/scripts/screenshot-select") 
+			awful.spawn.with_shell("~/.config/awesome/bin/screenshot-select") 
 		end,
         { description = "part screen", group = "screenshot" }
 	),
