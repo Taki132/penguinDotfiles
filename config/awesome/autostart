@@ -1,30 +1,36 @@
 #!/bin/sh
 
-/usr/bin/prime-offload
+run() {
+  if ! pgrep -f "$1"; then
+    "$@" &
+  fi
+}
+
+run /usr/bin/prime-offload
 
 # Compositor
-picom
+run picom
 
 # Xsettingsd
-xsettingsd
+run xsettingsd
 
 # Network Manager Applet
-nm-applet
+run nm-applet
 
 # Polkit Gnome
-/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+run /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
 # Wallpaper
-./.fehbg
+run ./.fehbg
 
 # Xresources
-xrdb merge ~/.Xresources
+run xrdb merge ~/.Xresources
 
 # Ibus daemon
-ibus-daemon -drx
+run ibus-daemon -drx
 
 # Auto lock
-xss-lock -- ~/.config/awesome/bin/blur-lock
+run xss-lock -- ~/.config/awesome/bin/blur-lock
 
 # Syncthing
-syncthing --no-browser
+run syncthing --no-browser
