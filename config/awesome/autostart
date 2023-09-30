@@ -1,43 +1,30 @@
 #!/bin/sh
 
-run() {
-	if ! pgrep -f "$1"; then
-		"$@" &
-	fi
-}
-
-run /usr/bin/prime-offload
+/usr/bin/prime-offload
 
 # Compositor
-run picom
+picom
 
 # Xsettingsd
-run xsettingsd
+xsettingsd
 
 # Network Manager Applet
-run nm-applet
+nm-applet
 
 # Polkit Gnome
-run /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
 # Wallpaper
-run ./.fehbg
+./.fehbg
 
 # Xresources
 xrdb merge ~/.Xresources
 
 # Ibus daemon
-run ibus-daemon -drx
+ibus-daemon -drx
 
 # Auto lock
-run xss-lock -- ~/.config/awesome/scripts/blur-lock
-
-# Other
-xsetroot -cursor_name left_ptr
-libinput-gestures-setup start
-xinput set-prop "DLL07BE:01 06CB:7A13 Touchpad" "libinput Natural Scrolling Enabled" 1
-xinput set-prop "DLL07BE:01 06CB:7A13 Touchpad" "libinput Click Method Enabled" 0 1
-xinput set-prop "DLL07BE:01 06CB:7A13 Touchpad" "libinput Disable While Typing Enabled" 0
+xss-lock -- ~/.config/awesome/scripts/blur-lock
 
 # Syncthing
 syncthing --no-browser
