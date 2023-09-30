@@ -78,7 +78,7 @@ screen.connect_signal("request::desktop_decoration", function(s)
 
 	s.wibar = awful.wibar({
 		position = "top",
-		height = dpi(36),
+		height = dpi(32),
 		bg = beautiful.bg_normal,
 		fg = beautiful.fg_normal,
 		screen = s,
@@ -100,7 +100,7 @@ screen.connect_signal("request::desktop_decoration", function(s)
 				},
 				layout = wibox.layout.align.horizontal,
 			},
-			margins = dpi(10),
+			margins = dpi(7),
 			widget = wibox.container.margin,
 		},
 	})
