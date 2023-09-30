@@ -84,7 +84,7 @@ theme.useless_gap           = dpi(5)
 theme.border_width          = dpi(0)
 theme.bg_systray    	    = color.bgalt
 theme.systray_icon_spacing  = dpi(10)
-theme.systray_max_rows		= 3
+theme.systray_max_rows		= 16
 theme.notification_spacing  = dpi(10)
 theme.tooltip_opacity       = 0
 
