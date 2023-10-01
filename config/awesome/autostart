@@ -23,9 +23,6 @@ run /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 # Wallpaper
 run ./.fehbg
 
-# Xresources
-run xrdb merge ~/.Xresources
-
 # Ibus daemon
 ibus-daemon -drx
 
