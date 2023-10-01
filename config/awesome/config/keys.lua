@@ -240,7 +240,7 @@ awful.keyboard.append_global_keybindings({
         end,
     },
     awful.key {
-        modifiers = { mod, "Control" },
+        modifiers = { mod, "Shift" },
         keygroup    = "numrow",
         description = "move focused client to tag",
         group       = "tag",
@@ -253,22 +253,6 @@ awful.keyboard.append_global_keybindings({
             end
         end,
     },
-    awful.key {
-        modifiers = { mod, "Shift" },
-        keygroup    = "numrow",
-        description = "move focused client to tag and follow",
-        group       = "tag",
-        on_press    = function(index)
-            if client.focus then
-                local tag = client.focus.screen.tags[index]
-                if tag then
-                    client.focus:move_to_tag(tag)
-					tag:view_only()
-                end
-            end
-        end,
-    }
-
 })
 
 client.connect_signal("request::default_keybindings", function()
@@ -366,3 +350,27 @@ client.connect_signal("request::default_keybindings", function()
 
     })
 end)
+
+  -- Move client with hjkl
+  awful.keyboard.append_global_keybindings({
+    awful.key({ mod, "Shift"   }, "j", function () awful.client.swap.byidx(  1) end,
+              {description = "swap with next client by index", group = "client"}),
+    awful.key({ mod, "Shift"   }, "k", function () awful.client.swap.byidx( -1) end,
+              {description = "swap with previous client by index", group = "client"}),
+    awful.key({ mod, "Shift"   }, "h", function () awful.tag.incnmaster( 1, nil, true) end,
+              {description = "increase the number of master clients", group = "layout"}),
+    awful.key({ mod, "Shift"   }, "l", function () awful.tag.incnmaster(-1, nil, true) end,
+              {description = "decrease the number of master clients", group = "layout"}),
+})
+
+  -- Move client with arrow keys
+  awful.keyboard.append_global_keybindings({
+    awful.key({ mod, "Shift"   }, "Down", function () awful.client.swap.byidx(  1) end,
+              {description = "swap with next client by index", group = "client"}),
+    awful.key({ mod, "Shift"   }, "Up", function () awful.client.swap.byidx( -1) end,
+              {description = "swap with previous client by index", group = "client"}),
+    awful.key({ mod, "Shift"   }, "Left", function () awful.tag.incnmaster( 1, nil, true) end,
+              {description = "increase the number of master clients", group = "layout"}),
+    awful.key({ mod, "Shift"   }, "Right", function () awful.tag.incnmaster(-1, nil, true) end,
+              {description = "decrease the number of master clients", group = "layout"}),
+})
