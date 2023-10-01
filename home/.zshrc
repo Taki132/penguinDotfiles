@@ -3,6 +3,7 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+echo "Welcome back $(whoami)!" 
 # Prompt
 PS1='%~ # '
 
