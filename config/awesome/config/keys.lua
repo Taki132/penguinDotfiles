@@ -44,18 +44,6 @@ awful.keyboard.append_global_keybindings({
 		end,
  		{ description = "previous layout", group = "awesome" }
 	),
-    awful.key(
-		{ mod }, "Tab", function() 
-			awful.client.focus.byidx(1) 
-		end,
-        { description = "next window", group = "awesome" }
-    ),
-    awful.key(
-		{ mod, "Shift" }, "Tab", function() 
-			awful.client.focus.byidx(-1) 
-		end,
-		{ description = "previous window", group = "awesome" }
-    ),
 	awful.key(
 		{ mod }, "space", function() 
 			awesome.emit_signal("widget::menu") 
@@ -329,24 +317,24 @@ client.connect_signal("request::default_keybindings", function()
     -- Focus client by direction (hjkl keys)
     awful.key({ mod }, "j",
         function()
-            awful.client.focus.bydirection("down")
+            awful.client.focus.byidx(1)
         end,
-        {description = "focus down", group = "client"}),
+        {description = "next window", group = "client"}),
     awful.key({ mod }, "k",
         function()
-            awful.client.focus.bydirection("up")
+            awful.client.focus.byidx(-1) 
         end,
-        {description = "focus up", group = "client"}),
+        {description = "previous window", group = "client"}),
     awful.key({ mod }, "h",
         function()
-            awful.client.focus.bydirection("left")
+            awful.tag.incmwfact(-0.01)
         end,
-        {description = "focus left", group = "client"}),
+        {description = "resize left", group = "client"}),
     awful.key({ mod }, "l",
         function()
-            awful.client.focus.bydirection("right")
+            awful.tag.incmwfact(0.01)
         end,
-        {description = "focus right", group = "client"}),
+        {description = "resize right", group = "client"}),
 
     })
 end)
