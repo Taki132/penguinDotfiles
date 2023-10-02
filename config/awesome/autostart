@@ -31,6 +31,3 @@ ibus-daemon -drx
 
 # Auto lock
 run xss-lock -- ~/.config/awesome/bin/blur-lock
-
-# Syncthing
-run syncthing --no-browser
