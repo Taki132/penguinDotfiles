@@ -8,6 +8,9 @@ run() {
 
 run /usr/bin/prime-offload
 
+# Xresources
+run xrdb merge ~/.Xresources
+
 # Compositor
 run picom
 
