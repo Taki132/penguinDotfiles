@@ -36,7 +36,8 @@ screen.connect_signal("request::desktop_decoration", function(s)
 
 	-- Tasklist
 
-	s.tasklist = hovercursor(awful.widget.tasklist({
+	s.tasklist = hovercursor(
+		awful.widget.tasklist({
 		screen = s,
 		filter = awful.widget.tasklist.filter.currenttags,
 		widget_template = {
@@ -94,7 +95,6 @@ screen.connect_signal("request::desktop_decoration", function(s)
 				s.tasklist,
 				{
 					clock,
-					controlspanel,
 					spacing = dpi(10),
 					layout = wibox.layout.fixed.horizontal,
 				},
