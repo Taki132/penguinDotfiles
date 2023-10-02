@@ -87,6 +87,7 @@ screen.connect_signal("request::desktop_decoration", function(s)
 				{
 					menu,
 					s.taglist,
+					s.layouts,
 					spacing = dpi(20),
 					layout = wibox.layout.fixed.horizontal,
 				},
@@ -94,7 +95,6 @@ screen.connect_signal("request::desktop_decoration", function(s)
 				{
 					clock,
 					controlspanel,
-					s.layouts,
 					spacing = dpi(20),
 					layout = wibox.layout.fixed.horizontal,
 				},
