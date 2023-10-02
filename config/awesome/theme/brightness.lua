@@ -124,7 +124,7 @@ awesome.connect_signal("widget::brightness", function()
 			brightnessdisplay, 
 			{
 				margins = { 
-					top = dpi(42),
+					top = dpi(34),
 					right = dpi(10)
 				}, 
 				parent = awful.screen.focused()
