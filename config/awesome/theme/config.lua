@@ -397,6 +397,7 @@ local general = wibox.widget({
 	toggle("Titlebar", "titlebar", user.titlebar),
 	toggle("Titlebar Controls", "titlecontrols", user.titlecontrols),
 	toggle("Japanese Tag List", "jtag", user.jtag),
+	inputbox("Location", "location", user.location, "London"),
 	visible = true,
 	spacing = dpi(15),
 	layout = wibox.layout.fixed.vertical,

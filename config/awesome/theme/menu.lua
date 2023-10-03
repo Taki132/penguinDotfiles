@@ -47,10 +47,10 @@ local header = wibox.widget({
 	widget = wibox.container.background,
 })
 
--- Profile
+-- Weather
 
-local username = wibox.widget({
-	text = "Username",
+local weather = wibox.widget({
+	text = "Weather",
 	widget = wibox.widget.textbox,
 })
 
@@ -58,7 +58,7 @@ local profile = wibox.widget({
 	{
 		{
 			{
-				username,
+				weather,
 				nil,
 				layout = wibox.layout.align.vertical,
 			},
@@ -743,7 +743,9 @@ menutoggle:buttons({
 			dashboard.visible = false
 		else
 			menutoggle.text = ""
-			headertext.text = "Dashboard"
+			awful.spawn.easy_async_with_shell("whoami;printf @;hostname", function(out)
+				headertext.text = out:gsub("\n", "")
+			end)
 			notifs.visible = false
 			dashboard.visible = true
 		end
@@ -828,7 +830,6 @@ awesome.connect_signal("widget::menu", function()
 	menudisplay.visible = not menudisplay.visible
 
 	menutoggle.text = ""
-	headertext.text = "Dashboard"
 	notifs.visible = false
 	dashboard.visible = true
 
@@ -837,8 +838,13 @@ awesome.connect_signal("widget::menu", function()
 	end)
 
 	awful.spawn.easy_async_with_shell("whoami;printf @;hostname", function(out)
-		username.text = out:gsub("\n", "")
+		headertext.text = out:gsub("\n", "")
 	end)
+
+	awful.spawn.easy_async_with_shell("~/.config/awesome/bin/weather " .. user.location, function(out)
+		weather.text = out:gsub("\n", "")
+	end)
+
 
 	wifistatus()
 	btstatus()

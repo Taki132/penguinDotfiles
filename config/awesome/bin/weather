@@ -1,0 +1,5 @@
+#!/bin/sh
+
+location=$1
+
+curl wttr.in/${location}?format=3
