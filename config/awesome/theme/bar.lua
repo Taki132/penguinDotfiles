@@ -100,7 +100,7 @@ screen.connect_signal("request::desktop_decoration", function(s)
 				},
 				layout = wibox.layout.align.horizontal,
 			},
-			margins = dpi(1),
+			margins = dpi(2),
 			widget = wibox.container.margin,
 		},
 	})
