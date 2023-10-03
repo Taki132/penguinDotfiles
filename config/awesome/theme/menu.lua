@@ -49,11 +49,6 @@ local header = wibox.widget({
 
 -- Profile
 
-local pfp = wibox.widget({
-	image = beautiful.pfp,
-	widget = wibox.widget.imagebox,
-})
-
 local username = wibox.widget({
 	text = "Username",
 	widget = wibox.widget.textbox,
