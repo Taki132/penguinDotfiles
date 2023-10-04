@@ -26,7 +26,6 @@ highlight feedlist "╠═.*" yellow default bold
 feedlist-format "%?T?║ %8u (%T) %t &╠══%t═══════════════════════════════════════════════════?"
 
 # Unbind keys
-unbind-key ENTER
 unbind-key j
 unbind-key k
 unbind-key J
