@@ -1,7 +1,7 @@
 -- define common options
 local opts = {
-    noremap = true,      -- non-recursive
-    silent = true,       -- do not show message
+    noremap = true, -- non-recursive
+    silent = true,  -- do not show message
 }
 local map = vim.keymap.set
 
@@ -23,11 +23,8 @@ map('n', '<C-Down>', ':resize +2<CR>', opts)
 map('n', '<C-Left>', ':vertical resize -2<CR>', opts)
 map('n', '<C-Right>', ':vertical resize +2<CR>', opts)
 
--- Neotree
-map('n', "<leader>e", "<cmd>Neotree toggle<cr>", opts)
-
--- Toggle Term
-map('n', '<leader>t', '<cmd>ToggleTerm<cr>', opts)
+map('n', '<tab>', "<cmd>BufferLineCycleNext<CR>", opts)
+map('n', '<S-tab>', "<cmd>BufferLineCyclePrev<CR>", opts)
 
 -----------------
 -- Visual mode --
@@ -36,5 +33,3 @@ map('n', '<leader>t', '<cmd>ToggleTerm<cr>', opts)
 -- Hint: start visual mode with the same area as the previous area and the same mode
 map('v', '<', '<gv', opts)
 map('v', '>', '>gv', opts)
-
-

@@ -51,6 +51,15 @@ local plugins = {
         version = "*",
         config = true
     },
+    -- Bufferline
+    {
+        'akinsho/bufferline.nvim',
+        version = "*",
+        dependencies = 'nvim-tree/nvim-web-devicons',
+        config = function()
+            require("plugins.config.bufferline")
+        end
+    },
     -- Treesitter
     {
         "nvim-treesitter/nvim-treesitter",
@@ -88,7 +97,6 @@ local plugins = {
             require("plugins.config.colorizer")
         end
     },
-
     -- Gitsigns
     {
         "lewis6991/gitsigns.nvim",

@@ -127,6 +127,22 @@ local mappings = {
         m = { "<cmd>Mason<cr>", "Mason (lsp)" },
         M = { "<cmd>MasonUpdateAll<cr>", "Mason update" },
     },
+    o = {
+        name = "Options",
+        n = {
+            name = "Number",
+            n = { "<cmd>set nu!<cr>", "Toggle number" },
+            r = { "<cmd>set rnu!<cr>", "Toggle relative number" },
+        },
+        t = { '<cmd>lua require("core.functions").toggle_tabline()<cr>', "Toggle Tab line" },
+    },
+    b = {
+        name = "Buffer",
+        n = { "<cmd>enew<cr>", "New buffer" },
+        j = { "<cmd>BufferLineCycleNext<cr>", "Next buffer" },
+        k = { "<cmd>BufferLineCyclePrev<cr>", "Previous buffer" },
+        x = { "<cmd>enew<bar>bd #<cr>", "Close buffer" },
+    }
 }
 
 local opts = {
