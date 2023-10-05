@@ -141,7 +141,7 @@ local mappings = {
         n = { "<cmd>enew<cr>", "New buffer" },
         j = { "<cmd>BufferLineCycleNext<cr>", "Next buffer" },
         k = { "<cmd>BufferLineCyclePrev<cr>", "Previous buffer" },
-        x = { "<cmd>enew<bar>bd #<cr>", "Close buffer" },
+        x = { "<cmd>enew<bar>bd! #<cr>", "Close buffer" },
     }
 }
 
