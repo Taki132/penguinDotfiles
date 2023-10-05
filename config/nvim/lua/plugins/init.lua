@@ -51,14 +51,6 @@ local plugins = {
         version = "*",
         config = true
     },
-    -- Dashboard
-    {
-        'goolord/alpha-nvim',
-        dependencies = { 'nvim-tree/nvim-web-devicons' },
-        config = function()
-            require("plugins.config.alpha")
-        end
-    },
     -- Treesitter
     {
         "nvim-treesitter/nvim-treesitter",
