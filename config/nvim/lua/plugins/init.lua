@@ -1,6 +1,17 @@
 local plugins = {
     -- Colorscheme
-    { 'Everblush/nvim', name = 'everblush' },
+    { 'Everblush/nvim',  name = 'everblush' },
+    { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+    {
+        "folke/tokyonight.nvim",
+        lazy = false,
+        priority = 1000,
+        opts = {},
+    },
+    { "shaunsingh/nord.nvim",     name = "nord" },
+    { "maxmx03/dracula.nvim",     name = "dracula" },
+    { "neanias/everforest-nvim",  name = "everforest" },
+    { "ellisonleao/gruvbox.nvim", name = "gruvbox" },
     {
         "nvim-neo-tree/neo-tree.nvim",
         cmd = "Neotree",
@@ -39,6 +50,14 @@ local plugins = {
         'akinsho/toggleterm.nvim',
         version = "*",
         config = true
+    },
+    -- Dashboard
+    {
+        'goolord/alpha-nvim',
+        dependencies = { 'nvim-tree/nvim-web-devicons' },
+        config = function()
+            require("plugins.config.alpha")
+        end
     },
     -- Treesitter
     {

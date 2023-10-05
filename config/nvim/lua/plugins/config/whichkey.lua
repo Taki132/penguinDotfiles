@@ -61,6 +61,7 @@ local mappings = {
         R = { "<cmd>Telescope registers<cr>", "Registers" },
         j = { "<cmd>Telescope commands<cr>", "Commands" },
         h = { "<cmd>Telescope highlights<cr>", "Help" },
+        c = { "<cmd>Telescope colorscheme<cr>", "Colorschemes" },
     },
     l = {
         name = "LSP",
