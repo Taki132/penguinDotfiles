@@ -26,7 +26,7 @@ require("neo-tree").setup({
             last_indent_marker = "└",
             highlight = "NeoTreeIndent",
             with_expanders = true,
-            expander_collapsed = ">",
+            expander_collapsed = "",
             expander_expanded = "",
             expander_highlight = "NeoTreeIndent",
         },
