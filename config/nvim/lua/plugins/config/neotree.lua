@@ -1,13 +1,13 @@
 vim.g.neo_tree_remove_legacy_commands = 1
 
 vim.fn.sign_define("DiagnosticSignError",
-    { text = " ", texthl = "DiagnosticSignError" })
+    { text = "x ", texthl = "DiagnosticSignError" })
 vim.fn.sign_define("DiagnosticSignWarn",
-    { text = " ", texthl = "DiagnosticSignWarn" })
+    { text = "! ", texthl = "DiagnosticSignWarn" })
 vim.fn.sign_define("DiagnosticSignInfo",
-    { text = " ", texthl = "DiagnosticSignInfo" })
+    { text = "i ", texthl = "DiagnosticSignInfo" })
 vim.fn.sign_define("DiagnosticSignHint",
-    { text = " ", texthl = "DiagnosticSignHint" })
+    { text = "? ", texthl = "DiagnosticSignHint" })
 
 require("neo-tree").setup({
     close_if_last_window = true,
@@ -26,7 +26,7 @@ require("neo-tree").setup({
             last_indent_marker = "└",
             highlight = "NeoTreeIndent",
             with_expanders = true,
-            expander_collapsed = "",
+            expander_collapsed = ">",
             expander_expanded = "",
             expander_highlight = "NeoTreeIndent",
         },
@@ -36,7 +36,7 @@ require("neo-tree").setup({
             folder_empty = "",
         },
         modified = {
-            symbol = "●",
+            symbol = "#",
             highlight = "NeoTreeModified",
         },
         git_status = {
@@ -88,11 +88,11 @@ require("neo-tree").setup({
         },
     },
     source_selector = {
-        winbar = true,
+        winbar = false,
         sources = {
-            { source = "filesystem", display_name = "Files " },
-            { source = "buffers",    display_name = "Bufs " },
-            { source = "git_status", display_name = "Git " },
+            { source = "filesystem", display_name = "files" },
+            { source = "buffers",    display_name = "bufs" },
+            { source = "git_status", display_name = "git" },
         },
     },
     event_handlers = {

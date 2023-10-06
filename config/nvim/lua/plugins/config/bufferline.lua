@@ -6,8 +6,8 @@ end
 bufferline.setup({
     options = {
         always_show_bufferline = false,
-        indicator_icon = " ▎",
-        modified_icon = "●",
+        indicator_icon = "",
+        modified_icon = "#",
         buffer_close_icon = "x",
         close_icon = "x",
         left_trunc_marker = "",
@@ -22,7 +22,7 @@ bufferline.setup({
         persist_buffer_sort = true,
         enforce_regular_tabs = true,
         diagnostics_indicator = function(count, level)
-            local icon = level:match("error") and "x" or "!"
+            local icon = level:match("error") and "x " or "! "
             return icon .. count
         end,
     },

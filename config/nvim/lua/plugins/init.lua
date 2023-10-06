@@ -162,7 +162,6 @@ local plugins = {
     },
 }
 local config = {
-    defaults = { lazy = true },
     ui = {
         icons = {
             ft = "",
