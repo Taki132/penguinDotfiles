@@ -12,7 +12,7 @@ local config = {
         ["<tab>"] = "Tab",
     },
     icons = {
-        breadcrumb = "",
+        breadcrumb = ">",
         separator = "-",
         group = " ",
     },
@@ -41,15 +41,15 @@ local config = {
 
 
 local mappings = {
-    f = {
+    q = {
         name = "File",
         q = { "<cmd>:qa!<cr>", "Quit" },
-        w = { "<cmd>:wq!<cr>", "Write and quit" },
+        W = { "<cmd>:wq!<cr>", "Write and quit" },
         n = { "<cmd>:enew<cr>", "New file" },
-        s = { "<cmd>:w<cr>", "Write file" },
+        w = { "<cmd>:w<cr>", "Write file" },
     },
     ["e"] = { "<cmd>Neotree toggle<cr>", " Neotree" },
-    F = {
+    f = {
         name = "Telescope",
         J = { "<cmd>Telescope media_files<cr>", "Media Files" },
         f = { "<cmd>Telescope find_files<cr>", "Find File" },
@@ -154,6 +154,7 @@ local opts = {
     nowait = true,
 }
 
+---@diagnostic disable-next-line: unused-local
 local vopts = {
     mode = "v", -- VISUAL mode
     prefix = "<leader>",

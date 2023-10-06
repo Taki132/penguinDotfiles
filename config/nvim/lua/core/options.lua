@@ -15,7 +15,7 @@ opt.expandtab = true -- tabs are spaces, mainly because of python
 -- UI config
 opt.number = true          -- show absolute number
 opt.relativenumber = false -- add numbers to each line on the left side
-opt.cursorline = true      -- highlight cursor line underneath the cursor horizontally
+opt.cursorline = false     -- highlight cursor line underneath the cursor horizontally
 opt.splitbelow = true      -- open new vertical split bottom
 opt.splitright = true      -- open new horizontal splits right
 opt.termguicolors = true   -- enable 24-bit RGB color in the TUI

@@ -31,9 +31,9 @@ require("neo-tree").setup({
             expander_highlight = "NeoTreeIndent",
         },
         icon = {
-            folder_closed = "",
-            folder_open = "",
-            folder_empty = "",
+            folder_closed = "",
+            folder_open = "",
+            folder_empty = "",
         },
         modified = {
             symbol = "●",
@@ -41,14 +41,14 @@ require("neo-tree").setup({
         },
         git_status = {
             symbols = {
-                added = "",
+                added = "+",
                 modified = "",
-                deleted = "",
-                renamed = "",
+                deleted = "-",
+                renamed = "->",
                 untracked = "",
                 ignored = "",
                 unstaged = "",
-                staged = "",
+                staged = ">",
                 conflict = "",
             },
         },
@@ -90,9 +90,9 @@ require("neo-tree").setup({
     source_selector = {
         winbar = true,
         sources = {
-            { source = "filesystem", display_name = "  Files " },
-            { source = "buffers", display_name = "  Bufs " },
-            { source = "git_status", display_name = "  Git " },
+            { source = "filesystem", display_name = "Files " },
+            { source = "buffers",    display_name = "Bufs " },
+            { source = "git_status", display_name = "Git " },
         },
     },
     event_handlers = {

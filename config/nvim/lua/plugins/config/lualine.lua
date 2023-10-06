@@ -110,25 +110,23 @@ ins_left {
 }
 
 ins_left {
-    -- filesize component
-    'filesize',
-    cond = conditions.buffer_not_empty,
-}
-
-ins_left {
     'filename',
     cond = conditions.buffer_not_empty,
     color = { fg = colors.magenta, gui = 'bold' },
 }
 
-ins_left { 'location' }
 
-ins_left { 'progress', color = { fg = colors.fg, gui = 'bold' } }
+ins_left {
+    -- filesize component
+    'filesize',
+    cond = conditions.buffer_not_empty,
+}
+
 
 ins_left {
     'diagnostics',
     sources = { 'nvim_diagnostic' },
-    symbols = { error = ' ', warn = ' ', info = ' ' },
+    symbols = { error = 'x ', warn = '! ', info = 'i ' },
     diagnostics_color = {
         color_error = { fg = colors.red },
         color_warn = { fg = colors.yellow },
@@ -161,35 +159,27 @@ ins_right {
         end
         return msg
     end,
-    icon = 'LSP:',
+    icon = '',
     color = { fg = '#ffffff', gui = 'bold' },
-}
-
--- Add components to right sections
-ins_right {
-    'o:encoding',       -- option component same as &encoding in viml
-    fmt = string.upper, -- I'm not sure why it's upper case either ;)
-    cond = conditions.hide_in_width,
-    color = { fg = colors.green, gui = 'bold' },
 }
 
 ins_right {
     'fileformat',
-    fmt = string.upper,
+    fmt = string.lower,
     icons_enabled = false, -- I think icons are cool but Eviline doesn't have them. sigh
     color = { fg = colors.green, gui = 'bold' },
 }
 
 ins_right {
     'branch',
-    icon = '',
+    icon = '',
     color = { fg = colors.violet, gui = 'bold' },
 }
 
 ins_right {
     'diff',
     -- Is it me or the symbol for modified us really weird
-    symbols = { added = ' ', modified = '󰝤 ', removed = ' ' },
+    symbols = { added = '+ ', modified = '=', removed = '-' },
     diff_color = {
         added = { fg = colors.green },
         modified = { fg = colors.orange },
@@ -197,6 +187,10 @@ ins_right {
     },
     cond = conditions.hide_in_width,
 }
+
+ins_right { 'location' }
+
+ins_right { 'progress', color = { fg = colors.fg, gui = 'bold' } }
 
 -- Now don't forget to initialize lualine
 lualine.setup(config)

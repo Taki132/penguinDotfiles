@@ -18,7 +18,6 @@ local plugins = {
         branch = "v3.x",
         dependencies = {
             "nvim-lua/plenary.nvim",
-            "nvim-tree/nvim-web-devicons", -- not strictly required, but recommended
             "MunifTanjim/nui.nvim",
         },
         config = function()
@@ -55,7 +54,6 @@ local plugins = {
     {
         'akinsho/bufferline.nvim',
         version = "*",
-        dependencies = 'nvim-tree/nvim-web-devicons',
         config = function()
             require("plugins.config.bufferline")
         end
@@ -147,12 +145,6 @@ local plugins = {
                 end
             },
             {
-                "nvimdev/lspsaga.nvim",
-                config = function()
-                    require("plugins.lsp.lspsaga")
-                end
-            },
-            {
                 "williamboman/mason.nvim",
                 cmd = { "Mason", "MasonInstall", "MasonInstallAll", "MasonUpdate" },
                 config = function()
@@ -168,14 +160,15 @@ local plugins = {
         "folke/trouble.nvim",
         cmd = { "TroubleToggle", "Trouble" },
     },
-
+}
+local config = {
     defaults = { lazy = true },
     ui = {
         icons = {
             ft = "",
-            lazy = "󰂠 ",
-            loaded = "",
-            not_loaded = "",
+            lazy = "",
+            loaded = "✓",
+            not_loaded = "x",
         },
     },
     performance = {
@@ -213,4 +206,4 @@ local plugins = {
     },
 }
 
-require("lazy").setup(plugins)
+require("lazy").setup(plugins, config)
