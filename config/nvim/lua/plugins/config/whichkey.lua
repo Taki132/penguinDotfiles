@@ -41,13 +41,6 @@ local config = {
 
 
 local mappings = {
-    q = {
-        name = "File",
-        q = { "<cmd>:qa!<cr>", "Quit" },
-        W = { "<cmd>:wq!<cr>", "Write and quit" },
-        n = { "<cmd>:enew<cr>", "New file" },
-        w = { "<cmd>:w<cr>", "Write file" },
-    },
     ["e"] = { "<cmd>Neotree toggle<cr>", " Neotree" },
     f = {
         name = "Telescope",

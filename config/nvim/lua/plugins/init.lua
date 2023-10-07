@@ -63,7 +63,7 @@ local plugins = {
         "nvim-treesitter/nvim-treesitter",
         event = "BufRead",
         build = function() require('nvim-treesitter.install').update({ with_sync = true }) end,
-        dependencies = { "nvim-treesitter/nvim-treesitter-context", "HiPhish/rainbow-delimiters.nvim" },
+        dependencies = { "nvim-treesitter/nvim-treesitter-context" },
         config = function()
             require("plugins.config.treesitter")
         end
