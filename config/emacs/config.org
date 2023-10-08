@@ -3,7 +3,7 @@
 #+STARTUP: showeverything
 #+OPTIONS: toc:2
 
-* Table of contents                                                     :toc:
+* Table of contents :toc:
 - [[#important-program-to-load-first][Important program to load first]]
   - [[#adding-the-scripts-directory-to-path][Adding the scripts directory to path]]
   - [[#sourcing-the-scripts][Sourcing the scripts]]
@@ -210,15 +210,15 @@ Defining the various fonts that Emacs will use.
 (set-face-attribute 'default nil
   :font "Cascadia Code"
   :height 110
-  :weight 'medium)
+  :weight 'normal)
 (set-face-attribute 'variable-pitch nil
   :font "Cascadia Code"
   :height 120
-  :weight 'medium)
+  :weight 'normal)
 (set-face-attribute 'fixed-pitch nil
   :font "Cascadia Code"
   :height 110
-  :weight 'medium)
+  :weight 'normal)
 ;; Makes commented text and keywords italics.
 ;; This is working in emacsclient but not emacs.
 ;; Your font must have an italic face available.
@@ -233,7 +233,7 @@ Defining the various fonts that Emacs will use.
 (add-to-list 'default-frame-alist '(font . "Cascadia Code-11"))
 
 ;; Uncomment the following line if line spacing needs adjusting.
-(setq-default line-spacing 0.12)
+;;(setq-default line-spacing 0.12)
 
 #+end_src
 
@@ -422,7 +422,8 @@ You can use the bindings CTRL plus =/- for zooming in/out.  You can also use CTR
     "t o" '(org-mode :wk "Toggle org mode")
     "t r" '(rainbow-mode :wk "Toggle rainbow mode")
     "t t" '(visual-line-mode :wk "Toggle truncated lines")
-    "t v" '(vterm-toggle :wk "Toggle vterm"))
+    "t v" '(vterm-toggle :wk "Toggle vterm")
+    "t z" '(writeroom-mode :wk "Toggle Zen Mode"))
 
   (leader
     "w" '(:ignore t :wk "Windows")
@@ -829,6 +830,8 @@ The first line below designates the directory where will place all of our custom
   (doom-themes-neotree-config)
   ;; Corrects (and improves) org-mode's native fontification.
   (doom-themes-org-config))
+
+(use-package writeroom-mode)
 #+end_src
 
 * Transparency
