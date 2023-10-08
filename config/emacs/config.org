@@ -30,7 +30,7 @@
 - [[#neotree][Neotree]]
 - [[#org-mode][Org-mode]]
   - [[#enabling-table-of-contents][Enabling Table of Contents]]
-  - [[#org-bullets][Org Bullets]]
+  - [[#org-indent][Org Indent]]
   - [[#diminish-org-indent-mode][Diminish Org Indent Mode]]
   - [[#org-level-headers][Org Level Headers]]
   - [[#source-code-block-tag-expansion][Source Code Block Tag Expansion]]
@@ -260,7 +260,7 @@ You can use the bindings CTRL plus =/- for zooming in/out.  You can also use CTR
     :global-prefix "M-SPC") ;; access leader in insert mode
 
   (leader
-    "SPC" '(counsel-M-x :wk "Counsel M-x")
+    "SPC" '(counsel-M-x :wk "M-x")
     "." '(find-file :wk "Find file")
     "=" '(perspective-map :wk "Perspective") ;; Lists all the perspective keybindings
     "TAB TAB" '(comment-line :wk "Comment lines")
@@ -300,9 +300,7 @@ You can use the bindings CTRL plus =/- for zooming in/out.  You can also use CTR
     "e h" '(counsel-esh-history :which-key "Eshell history")
     "e l" '(eval-last-sexp :wk "Evaluate elisp expression before point")
     "e r" '(eval-region :wk "Evaluate elisp in region")
-    "e R" '(eww-reload :which-key "Reload current page in EWW")
-    "e s" '(eshell :which-key "Eshell")
-    "e w" '(eww :which-key "EWW emacs web wowser"))
+    "e s" '(eshell :which-key "Eshell"))
 
   (leader
     "f" '(:ignore t :wk "Files")    
@@ -319,9 +317,7 @@ You can use the bindings CTRL plus =/- for zooming in/out.  You can also use CTR
             :wk "Open emacs init.el")
     "f j" '(counsel-file-jump :wk "Jump to a file below current directory")
     "f l" '(counsel-locate :wk "Locate a file")
-    "f r" '(counsel-recentf :wk "Find recent files")
-    "f u" '(sudo-edit-find-file :wk "Sudo find file")
-    "f U" '(sudo-edit :wk "Sudo edit file"))
+    "f r" '(counsel-recentf :wk "Find recent files"))
 
   (leader
     "g" '(:ignore t :wk "Git")    
@@ -401,7 +397,6 @@ You can use the bindings CTRL plus =/- for zooming in/out.  You can also use CTR
   (leader
     "o" '(:ignore t :wk "Open")
     "o d" '(dashboard-open :wk "Dashboard")
-    "o e" '(elfeed :wk "Elfeed RSS")
     "o f" '(make-frame :wk "Open buffer in new frame")
     "o F" '(select-frame-by-name :wk "Select frame by name"))
 
@@ -544,6 +539,17 @@ Emacs has built-in programming language modes for Lisp, Scheme, DSSSL, Ada, ASM,
 (use-package lua-mode)
 (use-package php-mode)
 
+(use-package lsp-mode
+  :init
+  ;; set prefix for lsp-command-keymap (few alternatives - "C-l", "C-c l")
+  (setq lsp-keymap-prefix "C-c l")
+  :hook (;; replace XXX-mode with concrete major-mode(e. g. python-mode)
+         (c++-mode . lsp)
+         ;; if you want which-key integration
+         (lsp-mode . lsp-enable-which-key-integration))
+  :commands lsp)
+
+(setq lsp-headerline-breadcrumb-enable nil)
 #+end_src
 
 * Minibuffer esc
@@ -605,12 +611,9 @@ Neotree is a file tree viewer.  When you open neotree, it jumps to the current f
     :init (add-hook 'org-mode-hook 'toc-org-enable))
 #+end_src
 
-** Org Bullets
-Org-bullets gives us attractive bullets rather than asterisks.
+** Org Indent
 #+begin_src emacs-lisp
 (add-hook 'org-mode-hook 'org-indent-mode)
-(use-package org-bullets)
-(add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
 #+end_src
 
 ** Diminish Org Indent Mode
