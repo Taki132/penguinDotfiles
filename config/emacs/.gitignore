@@ -5,4 +5,5 @@ config.el
 projectile-bookmarks.eld
 recentf
 sessions
+url
 .lsp-session-v1
