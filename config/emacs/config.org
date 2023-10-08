@@ -29,6 +29,7 @@
 - [[#modeline][Modeline]]
 - [[#neotree][Neotree]]
 - [[#org-mode][Org-mode]]
+  - [[#org-directory][Org directory]]
   - [[#enabling-table-of-contents][Enabling Table of Contents]]
   - [[#org-indent][Org Indent]]
   - [[#diminish-org-indent-mode][Diminish Org Indent Mode]]
@@ -604,6 +605,12 @@ Neotree is a file tree viewer.  When you open neotree, it jumps to the current f
 #+end_src
 
 * Org-mode
+** Org directory
+#+begin_src emacs-lisp
+(custom-set-variables
+ '(org-directory "~/org")
+ '(org-agenda-files (list org-directory)))
+#+end_src
 ** Enabling Table of Contents
 #+begin_src emacs-lisp
 (use-package toc-org
