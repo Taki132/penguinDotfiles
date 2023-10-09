@@ -4,7 +4,7 @@
 [[ $- != *i* ]] && return
 
 # Greeting
-echo "Welcome back $(whoami)!" 
+echo "welcome back $(whoami)!" 
 
 # Prompt
 PS1='%~ # '
