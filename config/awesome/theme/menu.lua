@@ -607,7 +607,7 @@ local notifsempty = wibox.widget({
     {
         nil,
         {
-            text = "nothing here! ＵｗＵ",
+            text = "nothing here! uwu",
             align = "center",
             valign = "center",
             widget = wibox.widget.textbox,
