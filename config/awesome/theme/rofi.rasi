@@ -36,7 +36,7 @@ prompt {
 	padding: 						-1% 0% 0% 0%;
 	background-color: 				@background-alt;
 	text-color: 					@foreground;
-	font:							"Roboto Mono Bold 18";
+	font:							"Cascadia Code 18";
 }
 
 // text entry
@@ -46,7 +46,7 @@ entry {
     placeholder-color:              @foreground;
     expand:                         true;
     horizontal-align:               0.45;
-    placeholder:                    "Search";
+    placeholder:                    "search";
     padding:                        0.10% 0% 0% 0%;
     blink:                          true;
 }
