@@ -26,6 +26,11 @@ map('n', '<C-Right>', ':vertical resize +2<CR>', opts)
 map('n', '<tab>', "<cmd>BufferLineCycleNext<CR>", opts)
 map('n', '<S-tab>', "<cmd>BufferLineCyclePrev<CR>", opts)
 
+-- Neorg
+map('n', '<C-Space>', "<cmd>Neorg keybind all core.qol.todo_items.todo.task_cycle<cr>", opts)
+map('n', '<C-S-Space>', "<cmd>Neorg keybind all core.qol.todo_items.todo.task_cycle_reverse<cr>", opts)
+
+
 -----------------
 -- Visual mode --
 -----------------
