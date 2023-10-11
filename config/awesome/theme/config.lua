@@ -407,6 +407,7 @@ local general = wibox.widget({
 
 local app = wibox.widget({
     inputbox("terminal", "terminal", user.terminal, "st"),
+    inputbox("browser", "browser", user.browser, "firefox"),
     visible = false,
     spacing = dpi(15),
     layout = wibox.layout.fixed.vertical,
@@ -428,7 +429,7 @@ local command = wibox.widget({
 -- Theme
 
 local theme = wibox.widget({
-    inputbox("font", "font", user.font, "Cascadia Code 11"),
+    inputbox("font", "font", user.font, "Cascadia Code Bold 11"),
     inputbox("alt font", "fontalt", user.fontalt, "Cascadia Code 11"),
     inputbox("icon font", "fonticon", user.fonticon, "Material Icons 16"),
     visible = false,

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+browser=$1
+
+${browser} https://github.com/p3nguin-kun/penguinRice/wiki
