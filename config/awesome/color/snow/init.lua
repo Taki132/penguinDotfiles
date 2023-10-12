@@ -1,4 +1,4 @@
-local theme_path = require("gears").filesystem.get_configuration_dir() .. "color/wave/"
+local theme_path = require("gears").filesystem.get_configuration_dir() .. "color/snow/"
 local color = {}
 
 color.bg = "#f0fafa"

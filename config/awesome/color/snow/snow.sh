@@ -17,7 +17,7 @@ C="#8cd7d2"
 # func (change colors in #Colors section)
 term
 # func - gtk - icons
-gtk "wave" "Qogir"
+gtk "snow" "Qogir"
 # wall
-cp ~/.config/awesome/color/wave/.fehbg ~/
+cp ~/.config/awesome/color/snow/.fehbg ~/
 ./.fehbg
