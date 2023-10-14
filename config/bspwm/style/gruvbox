@@ -1,0 +1,10 @@
+#!/bin/sh
+
+for archivos in ~/.config/bspwm/style_folder/gruvbox/config/*; do
+	cp -R "${archivos}" ~/.config/
+done
+
+cp -f "$HOME"/.config/bspwm/style_folder/gruvbox/home/.fehbg "$HOME"
+
+bspc wm -r
+pkill -USR1 -x sxhkd

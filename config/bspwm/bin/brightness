@@ -1,0 +1,27 @@
+#!/bin/sh
+
+notify_cmd(){ 
+    dunstify --replace=11111 --hints=int:value:"$(get_brightness)" "brightness" "$(get_brightness)"
+}
+
+get_brightness(){
+    xbacklight -get
+}
+
+brightness_up(){
+    xbacklight -inc 5
+    notify_cmd
+}
+
+brightness_down(){
+    xbacklight -dec 5
+    notify_cmd
+}
+
+if command -v brightnessctl &>/dev/null; then
+	case "$1" in
+		--up) brightness_up ;;
+		--down) brightness_down ;;
+		*) echo "$(get_brightness)%" ;;
+	esac
+fi

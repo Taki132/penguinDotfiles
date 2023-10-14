@@ -1,0 +1,34 @@
+#!/bin/sh
+
+notify_cmd(){ 
+    dunstify --replace=11111 --hints=int:value:"$(get_volume)" "volume" "$(get_volume)"
+}
+
+get_volume(){
+    pamixer --get-volume-human
+}
+
+volume_up(){
+    pamixer --allow-boost -i 5
+    notify_cmd
+}
+
+volume_down(){
+    pamixer --allow-boost -d 5
+    notify_cmd
+}
+
+toggle_mute(){
+    pamixer -t
+    notify_cmd
+}
+
+if command -v pamixer &>/dev/null; then
+	case "$1" in
+		--get) get_volume ;;
+		--up) volume_up ;;
+		--down) volume_down ;;
+		--toggle) toggle_mute ;;
+		*) echo "$(get_volume)%" ;;
+	esac
+fi

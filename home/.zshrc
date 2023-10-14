@@ -7,7 +7,8 @@
 echo "welcome back $(whoami)!" 
 
 # Prompt
-PS1='%~ # '
+PS1='%~
+> '
 
 # Auto startx
 if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then

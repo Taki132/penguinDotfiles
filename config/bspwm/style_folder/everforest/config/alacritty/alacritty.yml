@@ -1,0 +1,6 @@
+import:
+  - ~/.config/alacritty/everforest.yml
+  - ~/.config/alacritty/fonts.yml
+  - ~/.config/alacritty/config.yml
+  
+
