@@ -6,6 +6,8 @@
 # Greeting
 echo "welcome back $(whoami)!" 
 
+setopt prompt_subst
+
 # Prompt
 PS1='%~
 > '
@@ -27,3 +29,13 @@ HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
 bindkey -v
+
+# cute sudo
+export SUDO_PROMPT=$'pass for %u: '
+
+# not found
+command_not_found_handler() {
+	printf 'not found:%s %s\n' "$acc" "$0" >&2
+    return 127
+}
+	
