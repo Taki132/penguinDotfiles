@@ -10,18 +10,16 @@ get_brightness(){
 
 brightness_up(){
     xbacklight -inc 5
-    notify_cmd
 }
 
 brightness_down(){
     xbacklight -dec 5
-    notify_cmd
 }
 
 if command -v brightnessctl &>/dev/null; then
 	case "$1" in
-		--up) brightness_up ;;
-		--down) brightness_down ;;
+		--up) brightness_up && notify_cmd ;;
+		--down) brightness_down && notify_cmd ;;
 		*) echo "$(get_brightness)%" ;;
 	esac
 fi
