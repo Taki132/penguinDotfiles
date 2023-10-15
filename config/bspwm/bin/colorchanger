@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 style_dir="$HOME/.config/bspwm/style"
-rofi_command="rofi -dmenu -p Colorschemes -theme ~/.config/bspwm/config/rofi/theme.rasi"
+rofi_command="rofi -dmenu -p colorschemes -theme ~/.config/bspwm/config/rofi/theme.rasi"
 
 # List colorschemes
 options=()
