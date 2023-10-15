@@ -1,13 +1,5 @@
-# Normal
-st.font:              Cascadia Code:pixelsize=16:antialias=true:autohint=true
-st.borderpx:          32
-
 # For High Resolution screens (uncomment to use it)
-#st.font:              Cascadia Code:pixelsize=22:antialias=true:autohint=true
-#st.borderpx:          48
 #Xft.dpi: 120
 
 # For Low Resolution screens (uncomment to use it)
-#st.font:              Cascadia Code:pixelsize=12:antialias=true:autohint=true
-#st.borderpx:          32
 #Xft.dpi: 70
