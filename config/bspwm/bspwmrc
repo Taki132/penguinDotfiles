@@ -2,6 +2,7 @@
 # penguinRice
 
 # Start sxhkd
+killall -q sxhkd
 sxhkd -c ~/.config/bspwm/config/sxhkdrc &
 
 # Workspaces
