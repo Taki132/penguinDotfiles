@@ -6,10 +6,8 @@ sxhkd -c ~/.config/bspwm/config/sxhkdrc &
 
 # Workspaces
 workspaces() {
-	name=1
-	for monitor in $(bspc query -M); do
-		bspc monitor "${monitor}" -n "$name" -d '1' '2' '3' '4' '5' '6' '7' '8' '9' '10'
-		( (name++))
+	for monitor in "$(xrandr -q | grep -w 'connected' | cut -d' ' -f1)"; do
+		bspc monitor "${monitor}" -d '1' '2' '3' '4' '5' '6' '7' '8' '9' '10'
 	done
 }
 
