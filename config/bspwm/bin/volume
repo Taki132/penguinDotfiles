@@ -10,25 +10,22 @@ get_volume(){
 
 volume_up(){
     pamixer --allow-boost -i 5
-    notify_cmd
 }
 
 volume_down(){
     pamixer --allow-boost -d 5
-    notify_cmd
 }
 
 toggle_mute(){
     pamixer -t
-    notify_cmd
 }
 
 if command -v pamixer &>/dev/null; then
 	case "$1" in
 		--get) get_volume ;;
-		--up) volume_up ;;
-		--down) volume_down ;;
-		--toggle) toggle_mute ;;
+		--up) volume_up && notify_cmd ;;
+		--down) volume_down && notify_cmd ;;
+		--toggle) toggle_mute && notify_cmd ;;
 		*) echo "$(get_volume)%" ;;
 	esac
 fi
