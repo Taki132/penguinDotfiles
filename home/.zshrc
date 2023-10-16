@@ -3,9 +3,6 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-# Greeting
-echo "welcome back $(whoami)!" 
-
 setopt prompt_subst
 
 # Prompt
@@ -35,7 +32,7 @@ export SUDO_PROMPT=$'pass for %u: '
 
 # not found
 command_not_found_handler() {
-	printf 'not found:%s %s\n' "$acc" "$0" >&2
+	printf '%s %s? i dont know what is it\n' "$acc" "$0" >&2
     return 127
 }
 	
