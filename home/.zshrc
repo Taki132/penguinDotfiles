@@ -32,7 +32,7 @@ export SUDO_PROMPT="give me %u's pass pls: "
 
 # not found
 command_not_found_handler() {
-	printf '%s %s? i dont know what is it\n' "$acc" "$0" >&2
+	printf '%s%s? i dont know what is it\n' "$acc" "$0" >&2
     return 127
 }
 	
