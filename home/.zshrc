@@ -28,7 +28,7 @@ SAVEHIST=1000
 bindkey -v
 
 # cute sudo
-export SUDO_PROMPT=$'pass for %u: '
+export SUDO_PROMPT="give me %u's pass pls: "
 
 # not found
 command_not_found_handler() {
