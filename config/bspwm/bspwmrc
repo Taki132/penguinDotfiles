@@ -3,6 +3,7 @@
 
 # Start sxhkd
 killall -q sxhkd
+sleep 0.2
 sxhkd -c ~/.config/bspwm/config/sxhkdrc &
 
 # Workspaces
