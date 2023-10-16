@@ -1,18 +1,15 @@
 font:
+  family: Roboto Mono
   normal:
-    family: Cascadia Code
     style: Regular
 
   bold:
-    family: Cascadia Code
-    #style: Bold
+    style: Bold
   
   italic:
-    family: Cascadia Code
-    #style: Italic
+    style: Italic
 
   bold_italic:
-    family: Cascadia Code
-    #style: Bold Italic
+    style: Bold Italic
 
   size: 10

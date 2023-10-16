@@ -1,8 +1,8 @@
 configuration {
-	font:							"Cascadia Code 11";
+	font:							"Roboto Mono 11";
     show-icons:                     true;
     icon-theme:                     "Qogir";
-    display-drun: 					"";
+    display-drun: 					"run";
     drun-display-format:            "{name}";
     disable-history:                false;
 	sidebar-mode: 					false;
@@ -28,7 +28,7 @@ window {
 	width:							100%;
 	height:							100%;
     location:                       center;
-    font:							"Cascadia Code 16";
+    font:							"Roboto Mono 16";
 }
 
 // prompt
@@ -45,7 +45,7 @@ entry {
     text-color:                     @foreground;
     placeholder-color:              @foreground;
     expand:                         true;
-    horizontal-align:               0.45;
+    horizontal-align:               0.01;
     padding:                        0.10% 0% 0% 0%;
     blink:                          true;
 }
@@ -59,7 +59,7 @@ inputbar {
 	border:							0% 0% 0% 0%;
     border-radius:                  1px;
 	border-color:					@accent;
-    margin:                         0% 25% 0% 25%;
+    margin:                         0% 0% 0% 0%;
     padding:                        1.5%;
 }
 
