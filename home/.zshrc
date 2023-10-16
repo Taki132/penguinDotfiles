@@ -5,6 +5,9 @@
 
 setopt prompt_subst
 
+# Greeting
+echo "welcome back $(whoami)!"
+
 # Prompt
 PS1='%~
 > '
