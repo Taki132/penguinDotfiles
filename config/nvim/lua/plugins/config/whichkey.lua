@@ -44,7 +44,6 @@ local mappings = {
   ["e"] = { "<cmd>Neotree toggle<cr>", " Neotree" },
   f = {
     name = "Telescope",
-    J = { "<cmd>Telescope media_files<cr>", "Media Files" },
     f = { "<cmd>Telescope find_files<cr>", "Find File" },
     a = { "<cmd>Telescope find_files follow=true no_ignore=true hidden=true<cr>", "Find All" },
     r = { "<cmd>Telescope oldfiles<cr>", "Recent File" },

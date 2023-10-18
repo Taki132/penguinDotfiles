@@ -106,7 +106,6 @@ local plugins = {
         cmd = "Telescope",
         lazy = true,
         tag = '0.1.3',
-        dependencies = { "nvim-telescope/telescope-media-files.nvim" },
         config = function()
             require("plugins.config.telescope")
         end
