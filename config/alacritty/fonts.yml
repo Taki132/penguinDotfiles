@@ -1,6 +1,6 @@
 font:
-  family: Roboto Mono
   normal:
+    family: Cascadia Code
     style: Regular
 
   bold:

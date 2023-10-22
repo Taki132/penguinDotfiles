@@ -1,17 +1,17 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
-style_dir="$HOME/.config/bspwm/style"
+color_dir="$HOME/.config/bspwm/color"
 rofi_command="rofi -dmenu -p colorschemes -theme ~/.config/bspwm/config/rofi/theme.rasi"
 
 # List colorschemes
 options=()
-for file in "$style_dir"/*; do
+for file in "$color_dir"/*; do
 	options+=("$(basename "$file")")
 done
 
 # Show the rofi selection menu and store the result in a variable.
 selected=$(printf "%s\n" "${options[@]}" | $rofi_command)
 
-sh ~/.config/bspwm/style/${selected}
+~/.config/bspwm/bin/change_color ${selected}
 
 exit 0

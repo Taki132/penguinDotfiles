@@ -1,2 +1,0 @@
-#!/bin/sh
-feh --no-fehbg --bg-fill ~/.config/bspwm/style_folder/gruvbox/wall/gruvbox.png
