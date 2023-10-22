@@ -73,15 +73,6 @@ local plugins = {
             }
         }
     },
-    -- Illuminate
-    {
-        "RRethy/vim-illuminate",
-        event = { "BufReadPost", "BufNewFile" },
-        config = function()
-            require("illuminate").configure {
-                filetypes_denylist = { "neo-tree", "Trouble", "DressingSelect", "TelescopePrompt" } }
-        end
-    },
     -- Treesitter
     {
         "nvim-treesitter/nvim-treesitter",
@@ -108,14 +99,6 @@ local plugins = {
         tag = '0.1.3',
         config = function()
             require("plugins.config.telescope")
-        end
-    },
-    -- Colorizer
-    {
-        "NvChad/nvim-colorizer.lua",
-        event = 'BufRead',
-        config = function()
-            require("plugins.config.colorizer")
         end
     },
     -- Gitsigns
