@@ -12,6 +12,7 @@ done
 # Show the rofi selection menu and store the result in a variable.
 selected=$(printf "%s\n" "${options[@]}" | $rofi_command)
 
+[[ -n "$selected" ]] || exit 1
 ~/.config/bspwm/bin/change_color ${selected}
 
 exit 0
