@@ -8,9 +8,24 @@ setopt prompt_subst
 # Greeting
 echo "welcome back $USER!"
 
-# Prompt
-PS1='%~
-> '
+case $TERM in
+	linux) PROMPT=' %1~%F{%(?.4.1)} %(!.|./) %f';;
+	*)  PROMPT=$'%{\e[?25h\e[4 q%}%{$(topdir)%} > %f'
+esac
+
+topdir() {
+	## display dir in top-right
+	[ "$PWD" = "$HOME" ] && v='~' || v=${PWD##*/}
+	op=${OLDPWD##*/}
+
+	# save cursor pos, move cursor to the top-right
+	# then delete the previous contents
+	# then print the new dir and restore cursor pos
+	printf '%b%b%b' \
+		"\033[s\033[0;9999H" \
+		"\033[${#op}D\033[K" \
+		"\033[999C\033[${#v}D$v\033[u"
+}
 
 # Auto startx
 if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
