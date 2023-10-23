@@ -61,24 +61,12 @@ local plugins = {
             require("plugins.cmp.autopairs")
         end
     },
-    -- Zen Mode
-    {
-        "folke/zen-mode.nvim",
-        opts = {
-            options = {
-                signcolumn = "no",      -- disable signcolumn
-                number = false,         -- disable number column
-                relativenumber = false, -- disable relative numbers
-                cursorline = false,     -- disable cursorline
-            }
-        }
-    },
     -- Treesitter
     {
         "nvim-treesitter/nvim-treesitter",
         event = "BufRead",
         build = function() require('nvim-treesitter.install').update({ with_sync = true }) end,
-        dependencies = { "nvim-treesitter/nvim-treesitter-context", "HiPhish/rainbow-delimiters.nvim" },
+        dependencies = { "nvim-treesitter/nvim-treesitter-context" },
         config = function()
             require("plugins.config.treesitter")
         end

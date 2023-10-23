@@ -127,7 +127,6 @@ local mappings = {
       r = { "<cmd>set rnu!<cr>", "Toggle relative number" },
     },
     t = { '<cmd>lua require("core.functions").toggle_tabline()<cr>', "Toggle Tab line" },
-    z = { '<cmd>ZenMode<cr>', "Toggle Zen Mode" },
   },
   b = {
     name = "Buffer",
