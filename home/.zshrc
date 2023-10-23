@@ -5,13 +5,8 @@
 
 setopt prompt_subst
 
-# Greeting
-echo "welcome back $USER!"
-
-case $TERM in
-	linux) PROMPT=' %1~%F{%(?.4.1)} %(!.|./) %f';;
-	*)  PROMPT=$'%{\e[?25h\e[4 q%}%{$(topdir)%} > %f'
-esac
+# Prompt
+PROMPT=$'%{\e[?25h\e[4 q%}%{$(topdir)%} > %f'
 
 topdir() {
 	## display dir in top-right
