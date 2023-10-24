@@ -102,7 +102,7 @@ alt + Print
 
 # Wiki
 super + grave
-  firefox https://github.com/p3nguin-kun/penguinRice/wiki/
+  chromium https://github.com/p3nguin-kun/penguinRice/wiki/
 
 # Colorscheme changer
 alt + space
