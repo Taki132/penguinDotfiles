@@ -9,8 +9,7 @@ setopt prompt_subst
 echo welcome back $USER!
 
 # Prompt
-PROMPT='%~
-> '
+PROMPT='%~ # '
 
 # Auto startx
 if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
