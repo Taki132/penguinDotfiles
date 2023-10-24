@@ -5,7 +5,7 @@ super + Return
 	alacritty
 
 # Launcher
-super + @space
+super + d
 	rofi -show drun -theme ~/.config/bspwm/config/rofi/theme.rasi
 
 # Power menu

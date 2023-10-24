@@ -1,7 +1,6 @@
 configuration {
 	font:							"Cascadia Code 11";
     show-icons:                     true;
-    icon-theme:                     "Qogir";
     display-drun: 					"run";
     drun-display-format:            "{name}";
     disable-history:                false;
