@@ -26,6 +26,9 @@ dunst -config ~/.config/bspwm/config/dunst/dunstrc &
 # Autolock
 xss-lock -- ~/.config/bspwm/bin/blur-lock &
 
+# MPD
+mpd &
+
 # Ibus daemon
 ibus-daemon -drx &
 
