@@ -1,6 +1,0 @@
-import:
-  - ~/.config/alacritty/dracula.yml
-  - ~/.config/alacritty/fonts.yml
-  - ~/.config/alacritty/config.yml
-  
-

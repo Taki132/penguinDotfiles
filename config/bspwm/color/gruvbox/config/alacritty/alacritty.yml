@@ -1,6 +1,0 @@
-import:
-  - ~/.config/alacritty/gruvbox.yml
-  - ~/.config/alacritty/fonts.yml
-  - ~/.config/alacritty/config.yml
-  
-
