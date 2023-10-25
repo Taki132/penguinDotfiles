@@ -1,0 +1,6 @@
+2023/10/02-15:49:38.799 910 Reusing MANIFEST /home/karuto/.config/Morgen/Local Storage/leveldb/MANIFEST-000001
+2023/10/02-15:49:38.799 910 Recovering log #3
+2023/10/02-15:49:39.227 910 Reusing old log /home/karuto/.config/Morgen/Local Storage/leveldb/000003.log 
+2023/10/02-15:51:42.676 8c9 Level-0 table #5: started
+2023/10/02-15:51:42.901 8c9 Level-0 table #5: 17753 bytes OK
+2023/10/02-15:51:43.140 8c9 Delete type=0 #3

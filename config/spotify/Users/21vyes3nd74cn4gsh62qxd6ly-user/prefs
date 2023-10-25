@@ -1,0 +1,11 @@
+audio.play_bitrate_non_metered_migrated=true
+audio.crossfade_v2=true
+audio.downmixer_v2=true
+audio.equalizer.high_mid_peak_gain_v2=-178956971
+audio.equalizer_v2=true
+audio.equalizer.low_peak_gain_v2=268435456
+audio.equalizer.low_mid_peak_gain_v2=-178956971
+audio.equalizer.high_peak_gain_v2=268435456
+audio.crossfade.time_v2=12000
+audio.equalizer.high_shelf_gain_v2=536870912
+audio.equalizer.low_shelf_gain_v2=760567125

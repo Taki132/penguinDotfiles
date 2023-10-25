@@ -1,0 +1,36 @@
+2023/10/04-19:18:30.927 aa7c Reusing MANIFEST /home/karuto/.config/google-chrome/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/04-19:18:30.928 aa7c Recovering log #13
+2023/10/04-19:18:30.928 aa7c Reusing old log /home/karuto/.config/google-chrome/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/000013.log 
+2023/10/04-19:18:30.928 aa7c Delete type=2 #11
+2023/10/04-19:18:32.958 aa7c Level-0 table #18: started
+2023/10/04-19:18:33.002 aa7c Level-0 table #18: 801 bytes OK
+2023/10/04-19:18:33.046 aa7c Delete type=0 #13
+2023/10/04-19:18:33.047 aa7c Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x00\x00\x05' @ 408 : 1
+2023/10/04-19:18:33.047 aa7c Compacting 1@0 + 1@1 files
+2023/10/04-19:18:33.080 aa7c Generated table #19@0: 57 keys, 1235 bytes
+2023/10/04-19:18:33.080 aa7c Compacted 1@0 + 1@1 files => 1235 bytes
+2023/10/04-19:18:33.146 aa7c compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/10/04-19:18:33.146 aa7c Delete type=2 #18
+2023/10/04-19:18:33.147 aa7c Manual compaction at level-0 from '\x00\x06\x00\x00\x05' @ 408 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/10/04-19:20:56.396 aa8f Level-0 table #21: started
+2023/10/04-19:20:56.427 aa8f Level-0 table #21: 527 bytes OK
+2023/10/04-19:20:56.494 aa8f Delete type=2 #15
+2023/10/04-19:20:56.494 aa8f Delete type=0 #17
+2023/10/04-19:20:56.495 aa7c Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at '\x00\x07\x00\x00\x05' @ 427 : 1
+2023/10/04-19:20:56.495 aa7c Compacting 1@0 + 1@1 files
+2023/10/04-19:20:56.527 aa7c Generated table #22@0: 61 keys, 1277 bytes
+2023/10/04-19:20:56.527 aa7c Compacted 1@0 + 1@1 files => 1277 bytes
+2023/10/04-19:20:56.594 aa7c compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/10/04-19:20:56.594 aa7c Delete type=2 #21
+2023/10/04-19:20:56.595 aa7c Manual compaction at level-0 from '\x00\x07\x00\x00\x05' @ 427 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/10/04-19:28:09.314 aa8f Level-0 table #24: started
+2023/10/04-19:28:09.358 aa8f Level-0 table #24: 530 bytes OK
+2023/10/04-19:28:09.403 aa8f Delete type=2 #19
+2023/10/04-19:28:09.403 aa8f Delete type=0 #20
+2023/10/04-19:28:09.403 aa7c Manual compaction at level-0 from '\x00\x08\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at '\x00\x08\x00\x00\x05' @ 446 : 1
+2023/10/04-19:28:09.403 aa7c Compacting 1@0 + 1@1 files
+2023/10/04-19:28:09.425 aa7c Generated table #25@0: 65 keys, 1314 bytes
+2023/10/04-19:28:09.425 aa7c Compacted 1@0 + 1@1 files => 1314 bytes
+2023/10/04-19:28:09.491 aa7c compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/10/04-19:28:09.491 aa7c Delete type=2 #24
+2023/10/04-19:28:09.492 aa7c Manual compaction at level-0 from '\x00\x08\x00\x00\x05' @ 446 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at (end)

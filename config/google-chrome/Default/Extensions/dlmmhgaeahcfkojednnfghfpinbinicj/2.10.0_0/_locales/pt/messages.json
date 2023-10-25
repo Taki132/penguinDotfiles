@@ -1,0 +1,77 @@
+{
+   "activityDetails": {
+      "message": "Opcional: detalhes (por exemplo, 5v5 Deathmatch)"
+   },
+   "activitySource": {
+      "message": "on %"
+   },
+   "activityState": {
+      "message": "Opcional: estado (por exemplo, no jogo)"
+   },
+   "activityStreamURL": {
+      "message": "Link da sua Stream"
+   },
+   "activityTypeCustomStatus": {
+      "message": "Status Personalizado"
+   },
+   "activityTypeListening": {
+      "message": "Ouvindo"
+   },
+   "activityTypePlaying": {
+      "message": "Jogando"
+   },
+   "activityTypeStreaming": {
+      "message": "Transmissão"
+   },
+   "activityTypeWatching": {
+      "message": "Assistindo"
+   },
+   "activityUpdate": {
+      "message": "Definir atividade de Discord"
+   },
+   "appDesc": {
+      "message": "Defina \"Jogando\", \"Transmissão\", \"Ouvindo\" & \"Assistindo\" em Discord para o que você quiser."
+   },
+   "appName": {
+      "message": "Set Discord Activity — Definir atividade de Discord"
+   },
+   "hintTwitchOnly": {
+      "message": "O link da transmissão deve começar com https://twitch.tv/"
+   },
+   "loading": {
+      "message": "Set Discord Activity está carregando, por favor aguarde..."
+   },
+   "noTabHelp1": {
+      "message": "Se uma guia já estiver aberta, recarregue-a. Se não, simplesmente "
+   },
+   "noTabHelp2": {
+      "message": "abra um"
+   },
+   "noTabHelp3": {
+      "message": "."
+   },
+   "noTabPrefix": {
+      "message": "Eu não detectei uma "
+   },
+   "noTabSuffix": {
+      "message": " guia."
+   },
+   "source": {
+      "message": "Fonte:"
+   },
+   "sourceAutoMusic": {
+      "message": "Sua atividade do Discord será o nome + autor da música que você está ouvindo ou vazia se você não estiver ouvindo uma música."
+   },
+   "sourceAutoPlex": {
+      "message": "Sua Atividade do Discord será o nome do episódio, filme ou música que você está assistindo ou ouvindo ou vazio se não aplicável."
+   },
+   "sourceAutoVideo": {
+      "message": "Sua atividade do Discord será o título do vídeo que você está assistindo ou vazia se você não estiver assistindo a um vídeo."
+   },
+   "sourceCustom": {
+      "message": "Personalizar"
+   },
+   "sourceOff": {
+      "message": "Off"
+   }
+}

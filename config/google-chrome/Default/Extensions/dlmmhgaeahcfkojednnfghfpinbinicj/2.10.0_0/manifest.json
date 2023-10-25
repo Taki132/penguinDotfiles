@@ -1,0 +1,48 @@
+{
+   "author": "Sainan",
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "discord.js" ],
+      "matches": [ "https://discord.com/channels/*", "https://ptb.discord.com/channels/*", "https://canary.discord.com/channels/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "youtube.js", "content_script.js" ],
+      "matches": [ "https://www.youtube.com/*" ],
+      "run_at": "document_idle"
+   }, {
+      "all_frames": true,
+      "js": [ "youtubemusic.js", "content_script.js" ],
+      "matches": [ "https://music.youtube.com/*" ],
+      "run_at": "document_idle"
+   }, {
+      "all_frames": true,
+      "js": [ "soundcloud.js", "content_script.js" ],
+      "matches": [ "https://soundcloud.com/*" ],
+      "run_at": "document_idle"
+   }, {
+      "all_frames": true,
+      "js": [ "plex.js", "content_script.js" ],
+      "matches": [ "https://app.plex.tv/desktop", "https://app.plex.tv/desktop/*" ],
+      "run_at": "document_idle"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgWNBloCy3hp2GqAOPk/933pUayUa3/AqrCCYVQ/lD8iiTf0Svl1wfpncE4pQCLhBfPKG0jaIuvf5SbP2GoIpdmoaTkI6uqkytKEs3CZszsJ/iiM5PY9oUPMzLd+1ay5JnUwZcQkDuJE0B578uUy44HEDkqZvx/jsj6GsIelqotu97r5UbsMr0OqIa9cu9f2Ej89EH8wu8RTPtaNPvaIUIwObCtUOE8EZfVf1HmNw44Ck2y9pQfile1lgrf4OeSE97zItVgmijsQhdzDH5cUzD+CwcmRBrPL9aqo6rwyieZT8yktzNvz8s7PsCs/4fdw50aTMolAN5Xf2yyvDN6puWQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "41",
+   "name": "__MSG_appName__",
+   "permissions": [ "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.10.0"
+}

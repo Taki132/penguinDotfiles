@@ -1,0 +1,19 @@
+{
+   "background": {
+      "scripts": [ "background.bundle.js" ]
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "discord128.png",
+      "16": "discord16.png",
+      "48": "discord48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgMKLLH4BxCyg3adKaEOB5gVF0PYagFDpp8gdhf1IyeysOkBIxI7bCndit1G26QSXLm5l4bOp2pR5t5pkjGa7viMiSZDJizlzw80+A0dty3DhJPi24Z6KeJ8xyB9eeDmlt8pmt+6hQuH0Bbq8Pg/JydyZNroCBceUR6bN/dWqQ+61iS4FT75rWdOUuRozglwaACIso0dhpJt1dW4vmG9PYRxHdKNR9lL/c5JTXvHy9jQdvvupiyQ3/w1vu0ivqCpP3YfLQH3+MQAUrKoptw+rv9OonPgxOgcb6m0edtXSiRj12Mfz9FxEtozcMGZbDiMF1XAUa2/VhRSlRO3ijSCqdQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "options_page": "options.html",
+   "permissions": [ "notifications", "storage", "tabs", "*://discord.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.5"
+}

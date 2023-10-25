@@ -1,0 +1,45 @@
+#!/bin/sh
+# penguinRice
+
+# Start sxhkd
+killall -q sxhkd
+sleep 0.2
+sxhkd -c ~/.config/bspwm/config/sxhkdrc &
+
+# Workspaces
+workspaces() {
+	for monitor in "$(xrandr -q | grep -w 'connected' | cut -d' ' -f1)"; do
+		bspc monitor "${monitor}" -d '1' '2' '3' '4' '5' '6'
+	done
+}
+
+workspaces
+
+# bspwm config
+bspc config remove_unplugged_monitors true
+bspc config remove_disabled_monitors true
+bspc config top_padding 0
+bspc config right_padding 0
+bspc config bottom_padding 0
+bspc config left_padding 0
+bspc rule -a URxvt:scratchy sticky=on state=floating rectangle=widthxheight+Xoffset+Yoffset
+bspc config window_gap 10
+bspc config focus_follows_pointer true
+bspc config split_ratio 0.5
+bspc config single_monocle true
+bspc config borderless_monocle false
+bspc config gapless_monocle false
+
+# Screen setup
+~/.screenlayout/monitor.sh
+
+# Config files
+~/.config/bspwm/config/bsp-config
+
+# Autostart
+~/.config/bspwm/autostart
+
+# Cursor config
+xsetroot -cursor_name left_ptr
+
+export _JAVA_AWT_WM_NONREPARENTING=1

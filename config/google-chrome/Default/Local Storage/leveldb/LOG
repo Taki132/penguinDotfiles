@@ -1,0 +1,8 @@
+2023/10/20-21:21:09.382 4 Reusing MANIFEST /home/karuto/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2023/10/20-21:21:09.693 4 Recovering log #17
+2023/10/20-21:21:09.829 4 Reusing old log /home/karuto/.config/google-chrome/Default/Local Storage/leveldb/000017.log 
+2023/10/20-21:23:16.631 6 Level-0 table #21: started
+2023/10/20-21:23:17.102 6 Level-0 table #21: 604832 bytes OK
+2023/10/20-21:23:17.590 6 Delete type=0 #17
+2023/10/20-21:26:13.079 4 Level-0 table #23: started
+2023/10/20-21:26:13.315 4 Level-0 table #23: 2126488 bytes OK

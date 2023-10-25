@@ -1,0 +1,320 @@
+{
+   "checksum": "e3911f74bbf056ede05c9bbfaf4777f1",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13240851525002426",
+            "date_last_used": "13332929447078991",
+            "guid": "4f585ac8-f29a-4758-bf21-da07254e40f8",
+            "id": "5",
+            "name": "YouTube",
+            "type": "url",
+            "url": "https://youtube.com/"
+         }, {
+            "date_added": "13283528456661174",
+            "date_last_used": "0",
+            "guid": "c17c2d32-948f-42b1-a591-a6e385982974",
+            "id": "6",
+            "name": "SchemeColor.com: Download, create & share beautiful color combinations",
+            "type": "url",
+            "url": "https://www.schemecolor.com/"
+         }, {
+            "date_added": "13292642604691349",
+            "date_last_used": "0",
+            "guid": "967bc977-2524-407c-859c-cd236dd4441d",
+            "id": "7",
+            "name": "Picular",
+            "type": "url",
+            "url": "https://picular.co/"
+         }, {
+            "date_added": "13284286699916326",
+            "date_last_used": "0",
+            "guid": "c60cf3ed-1c18-4d94-9585-c9cd7fd92c87",
+            "id": "8",
+            "name": "Google docs",
+            "type": "url",
+            "url": "chrome-extension://aohghmighlieiainnegkcijnfilokake/main.html"
+         }, {
+            "date_added": "13285735865528887",
+            "date_last_used": "13333284196106425",
+            "guid": "9ccedd99-c1a2-4924-859f-aa70197fd4e1",
+            "id": "9",
+            "name": "Zalo Web",
+            "type": "url",
+            "url": "https://chat.zalo.me/"
+         }, {
+            "date_added": "13285736078131826",
+            "date_last_used": "13340042164213790",
+            "guid": "da126107-fa5e-4e0b-abb4-6c309093364e",
+            "id": "10",
+            "name": "Google Calendar - Tuesday, January 4, 2022, today",
+            "type": "url",
+            "url": "https://calendar.google.com/calendar/u/0/r"
+         }, {
+            "date_added": "13304877335238074",
+            "date_last_used": "13333519925047961",
+            "guid": "ceca4298-85fe-4a20-8c1f-2e011e191dd3",
+            "id": "11",
+            "name": "Lớp 11",
+            "type": "url",
+            "url": "https://loigiaihay.com/lop-11.html"
+         }, {
+            "date_added": "13303712388345768",
+            "date_last_used": "0",
+            "guid": "e4425a05-e72c-47fa-8479-5b30f56528d9",
+            "id": "12",
+            "name": "Laban Dictionary - Từ điển Anh Việt, Việt Anh, Anh Anh",
+            "type": "url",
+            "url": "https://dict.laban.vn/"
+         }, {
+            "date_added": "13303728072255660",
+            "date_last_used": "0",
+            "guid": "3d51aa40-c528-4e78-8516-6a133d2777ac",
+            "id": "13",
+            "name": "LifeAt Spaces",
+            "type": "url",
+            "url": "https://lifeat.io/?space=223"
+         }, {
+            "date_added": "13304261871384132",
+            "date_last_used": "0",
+            "guid": "4646664c-a57a-4e40-b9e0-b9edd6f86da6",
+            "id": "14",
+            "name": "Thời Khóa Biểu",
+            "type": "url",
+            "url": "http://thptchuyen.sogddtsonla.edu.vn/thoi-khoa-bieu2?isFeatured=1"
+         }, {
+            "date_added": "13304275707002947",
+            "date_last_used": "0",
+            "guid": "0a392d8d-0788-458c-a7da-6f3cf7ef4db8",
+            "id": "15",
+            "name": "Tuyển thẳng kết hợp phỏng vấn vào Đại học Bách Khoa như thế nào? | VOV2.VN",
+            "type": "url",
+            "url": "https://vov2.vov.vn/giao-duc-dao-tao/tuyen-thang-ket-hop-phong-van-vao-dai-hoc-bach-khoa-nhu-the-nao-32586.vov2#:~:text=Tr%C6%B0%E1%BB%9Dng%20%C4%90%E1%BA%A1i%20h%E1%BB%8Dc%20B%C3%A1ch%20Khoa%20H%C3%A0%20N%E1%BB%99i%20s%E1%BA%BD%20x%C3%A9t%20tuy%E1%BB%83n,(t%E1%BB%91i%20%C4%91a%2020%20%C4%91i%E1%BB%83m)."
+         }, {
+            "date_added": "13305284429444503",
+            "date_last_used": "0",
+            "guid": "ae16d492-b87a-4137-8cad-87f3800b5a2c",
+            "id": "16",
+            "name": "Phim lậu",
+            "type": "url",
+            "url": "https://www.bilibili.tv/vi/space/1283073712"
+         }, {
+            "date_added": "13328036494389624",
+            "date_last_used": "13328889977175684",
+            "guid": "1bb99222-38eb-4fdf-8efe-a301423fe694",
+            "id": "17",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Data Structure and Algorithms",
+            "type": "url",
+            "url": "https://codelearn.io/learning/data-structure-and-algorithms"
+         } ],
+         "date_added": "13340894178821895",
+         "date_last_used": "0",
+         "date_modified": "13340894355108261",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13340894178821898",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [ {
+            "date_added": "13314168833909883",
+            "date_last_used": "0",
+            "guid": "57f493b5-6379-4312-938a-cb2bfe041777",
+            "id": "18",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Google - Courses",
+            "type": "url",
+            "url": "https://nhantaiso.nic.gov.vn/"
+         }, {
+            "date_added": "13314727125308618",
+            "date_last_used": "0",
+            "guid": "d892a3f7-a4e8-4fb2-a566-be32f692ab5d",
+            "id": "19",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Steam Workshop::五条悟 Gojo Satoru",
+            "type": "url",
+            "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2581534176"
+         }, {
+            "date_added": "13315055956152981",
+            "date_last_used": "0",
+            "guid": "3b9a99c3-c867-4506-b1a8-414757380f69",
+            "id": "20",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Cách chuyển tiền từ SIM này sang SIM khác đơn giản nhất 2022",
+            "type": "url",
+            "url": "https://didongviet.vn/dchannel/cach-chuyen-tien-tu-sim-nay-sang-sim-khac/#ftoc-1-cach-chuyen-tien-tu-sim-nay-sang-sim-khac-moi-nhat-vo-cung-don-gian"
+         }, {
+            "date_added": "13315064671174460",
+            "date_last_used": "0",
+            "guid": "e3c593d6-06b8-4847-9c8a-1169dd672bed",
+            "id": "21",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Ảnh - Google Photos",
+            "type": "url",
+            "url": "https://photos.google.com/photo/AF1QipOc8spY3U170K4kmq9L1xSGyOPoW6Nv7yNw--rW"
+         }, {
+            "date_added": "13315217003678245",
+            "date_last_used": "0",
+            "guid": "79f649ca-bed8-43d5-a62c-2b578eaa8826",
+            "id": "22",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Night Wallpaper Engine Free",
+            "type": "url",
+            "url": "https://www.wallpaperenginefree.com/2017/12/night-wallpaper-engine-free.html"
+         }, {
+            "date_added": "13319730622783610",
+            "date_last_used": "0",
+            "guid": "c217b436-3737-4acb-a1e0-61e1902a9350",
+            "id": "23",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "20+ Splash Pictures [HQ] | Download Free Images on Unsplash",
+            "type": "url",
+            "url": "https://unsplash.com/s/photos/splash"
+         }, {
+            "date_added": "13326220732036386",
+            "date_last_used": "0",
+            "guid": "26f11b83-c801-4a27-b962-e945e9d1fa4d",
+            "id": "24",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Bspwm WM does not utilize full screen of computer - Technical Issues & Assistance - ArchLabs Linux",
+            "type": "url",
+            "url": "https://forum.archlabslinux.com/t/bspwm-wm-does-not-utilize-full-screen-of-computer/2957"
+         }, {
+            "date_added": "13326538018100748",
+            "date_last_used": "13326538033880461",
+            "guid": "af891bf4-7709-49b4-bbc5-62712a835a0f",
+            "id": "25",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Members",
+            "type": "url",
+            "url": "https://home.openweathermap.org/api_keys"
+         }, {
+            "date_added": "13327672262711785",
+            "date_last_used": "0",
+            "guid": "a9a451ed-98e7-4a53-b50a-a5b706d7bd89",
+            "id": "26",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "タイピングチューブ 歌詞で楽しくタイピング練習",
+            "type": "url",
+            "url": "https://typing-tube.net/"
+         }, {
+            "date_added": "13327816475661410",
+            "date_last_used": "0",
+            "guid": "3c092305-652e-4fae-8de9-7682ab582275",
+            "id": "27",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "How to Install Custom ROM on Samsung Galaxy A23 [GSI build]",
+            "type": "url",
+            "url": "https://www.getdroidtips.com/custom-rom-samsung-galaxy-a23/"
+         }, {
+            "date_added": "13327842376379827",
+            "date_last_used": "0",
+            "guid": "c1bbeabc-9c72-48ce-a819-18202f6d9088",
+            "id": "28",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "http://www.opensource.samsung.com/",
+            "type": "url",
+            "url": "http://www.opensource.samsung.com/"
+         }, {
+            "date_added": "13328410779160908",
+            "date_last_used": "0",
+            "guid": "3eb6c7bc-5026-43db-a05b-fc668b2e80d4",
+            "id": "29",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "tumbler linux - Tìm trên Google",
+            "type": "url",
+            "url": "https://www.google.com/search?q=tumbler+linux&client=ms-android-samsung-ss&sxsrf=APwXEddWITEZfUiUz-6HgsF1PccRSWTdZQ%3A1683937130394&ei=atdeZMvcF4jcseMPp7q42Ag&oq=tumbler+linux&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAMyCAgAEIAEEMsBMggIABCABBDLATIICAAQgAQQywEyCAgAEIAEEMsBMggIABCABBDLATIICAAQgAQQywEyCAgAEIAEEMsBMggIABCABBDLAToECAAQRzoFCAAQgAQ6CggAEIAEEAoQywFKBAhBGABQrQZYpRhg4h1oAHACeACAAZ4OiAGBGpIBCTItMi43LTEuMZgBAKABAcgBCMABAQ&sclient=mobile-gws-wiz-serp#ip=1"
+         }, {
+            "date_added": "13330083026942962",
+            "date_last_used": "0",
+            "guid": "74544b96-d82c-4372-9a33-da6f6d582d30",
+            "id": "30",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Font List Windows 11 - Typography | Microsoft Learn",
+            "type": "url",
+            "url": "https://learn.microsoft.com/vi-vn/typography/fonts/windows_11_font_list"
+         }, {
+            "date_added": "13330271367249153",
+            "date_last_used": "0",
+            "guid": "4d298cad-465a-47c7-9abf-eafc7adee2f5",
+            "id": "31",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "K28 Beginner Contest 55- Kỳ thi - Chuyên Sơn La Online Judge",
+            "type": "url",
+            "url": "http://csloj.ddns.net/contest/240?fbclid=IwAR2ohlAJur9hkWxfgodL0fTOrChQ0n6867_R_G5oC0xWKZR1YlRs2C_Oy0w"
+         }, {
+            "date_added": "13338464955253102",
+            "date_last_used": "0",
+            "guid": "40e403e1-7e68-42d1-b9e8-29b93ec33e5e",
+            "id": "32",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "CHẠY ĐI, MAELLE - Mi2MANGA - Truyện Tranh mới nhất từ NETTRUYEN ngôn tình, đam mỹ, manhua, manhwa, truyengihot",
+            "type": "url",
+            "url": "https://www.google.com/amp/s/m.mi2manga2.com/truyen-tranh/chay-di-maelle-010923/%3famp=1"
+         }, {
+            "date_added": "13340959115578383",
+            "date_last_used": "0",
+            "guid": "9897e149-d48f-4782-a116-fd8015dfbd4c",
+            "id": "33",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Spotify download mp3 - Tìm trên Google",
+            "type": "url",
+            "url": "https://www.google.com/search?q=Spotify%20download%20mp3"
+         } ],
+         "date_added": "13340894178821900",
+         "date_last_used": "0",
+         "date_modified": "13340959115578383",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CvsFCtoFCIiBAhLDBRJSCAISTgoGCgJibRABEDMaEgmAcl+IJggGACGAcl+IJggGACIUCbVcvJgmCAYAEAMZlN03edoHzeUyGAoWCAIR89b5mCYIBgAYACEAAAAAAAAAACAAkgHkBAqaBAoOY2hyb21lX3N5bmNfYm0SBTUxIWJtGhIJrA36mCYIBgARrA36mCYIBgAiNAm0XLyYJggGABADGaU9Mq4Qb6moIAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEiNAm0XLyYJggGABADGaU9Mq4Qb6moIAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEiNAm0XLyYJggGABADGaU9Mq4Qb6moIAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEiNAm0XLyYJggGABADGaU9Mq4Qb6moIAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEiNAm0XLyYJggGABADGaU9Mq4Qb6moIAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEiNAm0XLyYJggGABADGaU9Mq4Qb6moIAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEiNAm0XLyYJggGABADGaU9Mq4Qb6moIAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEiNAm0XLyYJggGABADGaU9Mq4Qb6moIAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEiNAm0XLyYJggGABADGaU9Mq4Qb6moIAEqHDUxIWJtL2ZkOjkxNjM3MjM1NTk0Njg4OTMxNjEpgSX6mCYIBgAKRQoWYW5ub3RhdGlvbl9jaHJvbWVfc3luYxIFNTEhYmQaEgmABxqTJggGABGABxqTJggGACk5CPqYJggGADCAj+iY6YSCA7oBAggBKg4QABgAIAAoATAAOABAABIAKhhVZjZEaGZhSG1ubTY2Q0V1YjdlTU1nPT1IAxLtAQgfEugBChxjUGtIQXZGV2s4ZzAzaGRWRHVlczNnME5JVU09EmZaOkFEcXRBWnloRVV5QWhQcnl1N1BmT2ZnNWdQQUhpYm0rdWZsZENJV0pyN25nVXdXa0RkTkQ1V2pGd1hkZHpSZHdtd3NuOTk3enVuWEw4S2lPM3NLVEo3eE5GSnVmcnpjOC9RPT0YACAAKAAw5e+4g5an/wI40ZCCi4gxQNGQgouIMUocSFJZVWxwUFQrbEkwcjZJZGhVRXIvVDB1eWljPVogIh7/91JXQWJnYkhXd2hhV1hDT0tvcElpRlRjcW9mMD1lT8DvWRLtAQgeEugBChxNMkROME1malo5Y091dzF2eCtMY1dSZmdvN1U9EmZaOkFEcXRBWnloRVV5QWhQcnl1N1BmT2ZnNWdQQUhJdUJIUG1mN1l2Y2NlS3JuYnFMWEI4dDltQnlyaERtczlCRDZjeEwvbVpySjh2akdPWEI4QXVnSllPL29qa0k1eDJoa2h3PT0YACAAKAAw4/PdtNih/wI4/9+asYcxQP/fmrGHMUocNGF5RnRxZ0lIcytOVFkwa29mUHBBUlp1ek44PVogIh7/7m9NSDJZeEhLTVFaNlVhN3VtV1FMcEptSXFXRT1lpxzSGRLtAQgdEugBChxtNWNyZ3l0MlZTM2puN3BrQ3B0bmpqL3pHd3c9EmZaOkFEcXRBWnloRVV5QWhQcnl1N1BmT2ZnNWdQQUhzU1B0dG5NK05pUXdRSEtYM3FkLzV1cnVTK1RXNmNZWldpRVFra3VUUjlxOEl5WXlUS3R6RGpjTEQ5dnlGbDdqb2swdUdRPT0YACAAKAAwkMON/oP4gAM4nezok4ExQJ3s6JOBMUocaHBLV2VLY0tCeVVXQ3BnbVhvbm1wMW43YjI0PVogIh7/3EhKNUw5OFJhSVBKM1dZa3lpZVJDditqaVRqRT1lEDD/5BLsAQgcEucBChxtNjVEM0t4c0E3YjE0akVvRCtsZ0dmRW85Rnc9EmZaOkFEcXRBWnloRVV5QWhQcnl1N1BmT2ZnNWdQQUhhTktYNjcvbWhlelJFYXlQQjB5bnJyZC9CbFViSXkzWks5bllLcU9pZGEzSm55YmJYRGQ4bUhxTXdsU3JaQ3pienQ3NTNRPT0YACAAKAAwgobhsL3g/gI4wKXkhP8wQMCl5IT/MEocM0hNbUNHbVlQNXdsUkQ5c3lVcEhxSVBTN09VPVofIh3/cm93NzF4TGhQcVVBVkxRSk1FbXZWVXdiMlRNPWUAAAAAEuwBCBkS5wEKHDdMZVRMK2E5OGJ3RVRMR2RUQjBGTWxYMFRFUT0SZlo6QURxdEFaeWhFVXlBaFByeXU3UGZPZmc1Z1BBSE5UQUlhK082dGxXcUgyLzVPYy9rWERsQ1MrNG00WnBteXhYWDR4dUcrVGxUOUk5TUgwNlZ2dnFBOVBPOCtJcUcyN2h2anc9PRgAIAAoADD+0KHjsLv+Aji1yuiW+jBAtcrolvowShxnRDZnWlA3bHFpZ3lENHZDN2lMbFFvYWJaSnc9Wh8iHf1HSUNlWjNxa0FqMW5tbFBHQ3pTeVN6UmE2MEk9ZYugKYwSqwEIARKmAQoceXhKLzZmdmtlY3I3a3A1RVF6QjR0V0xwZGJFPRJOWjpBRHF0QVp3cERjZHJMQlFzT0luWkNsakNjdXVObEFhc0EvN0x2NWFzcFFXQVZYbWwrREpMWGdRVCtEUkN3OTlvbkl2WGxyVkFYalJDGAAgACgAMLS58cXphIIDOABAAEocYVJDV0xnaEY5YjVJbnFLSUR2dUovanZRa0ZjPVoAZQAAAAAS7AEIFxLnAQocOWx6NWdGWXI4aHJuVzk3Tk9CRVdhcXY4akNZPRJmWjpBRHF0QVp5aEVVeUFoUHJ5dTdQZk9mZzVnUEFIMERhWVlrVEhXODVVVUIrZGZiam5KQ0hHajE2ZFFHYUNaUW9QU3QzZDF2NkJFSklwVms5UjdpS1R6b21pSTlFVGxzbFlqUT09GAAgACgAMKiwkt+y9PwCOMKS5ujgMEDCkubo4DBKHE9yMnVXUGlwbE5wR2hSSm9RZW9iUTVRNlRkQT1aHyId9kZFRklhdGJZU1dBUElIZkdDOGUzRVo5NStOaz1lI3piQxLsAQgWEucBChwwWE12a0N2Z1RIQUtwaW9DS3JTK0V4ZURQVEk9EmZaOkFEcXRBWnloRVV5QWhQcnl1N1BmT2ZnNWdQQUgzbnE3aVR1R2RvTi9TcnptR2VXanZkcGQrL1JhVGRLbzE0WTE5M2JVb3JDNXo2bjROM1paM0RYZkpqV2E4bDFIZzVyTlBRPT0YACAAKAAwt5H0jITx+wI4ntnEgNAwQJ7ZxIDQMEocQzRUOS9QL3ZTM2VUaVN3SFZ0QUtXV0xpZUpZPVofIh3tWFpCbTZOcjhBUzZmTGR6TDQxSDZWRjlidDR3PWWuFRp1Eu0BCCES6AEKHFB3LzUzdUtFelpaRWNQcWNIQVc3cUN5V2kwQT0SZlo6QURxdEFaeWhFVXlBaFByeXU3UGZPZmc1Z1BBSG56UzEraFRPYUJsTG5rd0YrWUZPRVJuK0pZb3lRZmpEU3phUEtrL2t0NlhMSjViY0JuaU1pRmw1RG1UdzQ4ZE5ubDVGRUE9PRgAIAAoADDH8P2End6BAzjDwqrzrzFAw8Kq868xShxmeFBxZ1NCU2VFR2xEdENJcld4WmYraHFLMmM9WiAiHv/9cXhIUjhGNnNtbFBWSGFzeHBtY1ZRYXZFR0xRPWW1YUONEuwBCBgS5wEKHFM3d0V5aUxjNUcvaWtzTnRGTkJMYWxCNm9mdz0SZlo6QURxdEFaeWhFVXlBaFByeXU3UGZPZmc1Z1BBSGl1K2NURmhXNEdMY3lhTndGemdSTjdWR0h6U3RjTDQvaVFrL1FOb0p5VHpFUHpBUk1QV3RocGN0WkJRSWFqLzlUMkdzb1E9PRgAIAAoADDijqWkpLH+AjiF/cL/+DBAhf3C//gwShxORkhIUGo1V2dhWDBYNllUL0pCQlpDTmhEOEk9Wh8iHft4VUtXb1JDZUVYd1c5SkFHdWdOWXdsZjlwUFE9Zc+a5SgSwwEIAxK+AQocbmpnRHU4OGVDcnZYcDg2cEQ3ZkhHY3FGcDg4PRJmWjpBRHF0QVp4Q1ZWTVZVNnI0WUxyUlFES213bUNja1lnSlNZNlRiRkp2YzBzQVJlY2J5OW1adTZOQlI3b1NUN1BSSUhSbjdMYTBmODNtV1pzQVY1aUdGTjZaV3ZaSHhRZmlvZz09GAAgACgAMLS58cXphIIDOABAAEoceXpOQjAxY241NEE3Y1JVMHVUKy9QZ21UdFVvPVoAZQAAAAAS7AEIFBLnAQocdFBhTVJ4eEhDQ1Y0eDlOMndlQktRVE0vMHdVPRJmWjpBRHF0QVp5aEVVeUFoUHJ5dTdQZk9mZzVnUEFIR09kb1Z1TjJ5MW8ySmljUDV0cXY0d1VwRXpuVWNvMDZSc0tVL0xYWll5UXF4cjRYNFNHOE91TGFZOVBSOHdCZUxOM3RkZz09GAAgACgAMLG9oaCs7PsCOLqR37PPMEC6kd+zzzBKHHNEQ2NrSEY5Uklobnp2SkZvaHpHS2lPaE5MOD1aHyIdtVg2SkxZNUpOcDVBZGJPcGgwMlB3Q2xPSW9Mbz1l+MKewxLzAQgREu4BChxkSUR1aGFJSTNHc1JHclFXYXFKNXh1OCtkMVk9EmZaOkFEcXRBWnloRVV5QWhQcnl1N1BmT2ZnNWdQQUh2UExsdTNacGhFbUNJNE5odmpiamc5b1UwY293d2tzMWVTNUltSTRUT25OT1k0WGNKZmRYK096OTk1cnh4MDRTblZGQjR3PT0YACACKAIwx6at0umEggM4uqis4f8wQLmS3Ou0MUocUGZoUHVyVDNvU0FKVHZTWGN5OWFvNkVEdDUwPVomIiT/////AAAABFM2UHFLTGNOclZBaXlZTnJFbjdHeEY4NWM1az1lZE1wLhLrAQgSEuYBChxCZGRVM3pUM1VxdU85S0lpdlVqazhLL3I0Wmc9EmZaOkFEcXRBWnloRVV5QWhQcnl1N1BmT2ZnNWdQQUhjQkM5WWNDL05DQ2cxMmZiellXbHNHUmtWK2JPNkdDZFFlNTZFbUxTNHFXMGtvRDlKa0lmUDNMNGhSS3YxbzJsbldhQUpRPT0YACAAKAAwjsPYu8PS+wI49r7djMwwQPa+3YzMMEocK1F6R1djR3hEYnNIOGNSWkxQbmxHUGdPekJrPVoeIhxmMTBCcmJacmV4aUJRcG1xVG12R3ZyNmlwbVk9ZcCMBQAS7gEIChLpAQocM0NyUEhsUjhUSUtNSGZvMzVBOFRCK3Q4MTBBPRJmWjpBRHF0QVp5aEVVeUFoUHJ5dTdQZk9mZzVnUEFIcEk3UXdqZFZTYmpVU0FibHhzOGZPamVqeXdFTllNdG1JV1hTdFFHd3I0dlQvdVNqVzM4bDZFbFJySmk4NTRqNFlnQ0ZFQT09GAAgAigCMMemrdLphIIDOLXm95biL0CyktzrtDFKHHhqbDY0QXhrRlozZFVVenE1eDV6RUNwOGhuVT1aISIf///QeXFxS0NRODJQcTZuYkxpUlRreE9velF0KzVNPWW9YBlIEuwBCBUS5wEKHHhtbWx2Y2I2NkIrTi9zd0V4SGJBRW9SR2FmOD0SZlo6QURxdEFaeWhFVXlBaFByeXU3UGZPZmc1Z1BBSFBrS3o0ZE5lRzdmSkRRREhVK3k4Ui9XdmdjaXRMd1R6OFlhQTF0bHYydFdVYzlCR2xzL2tneEFDZXMvNERvRjVnd3RCMGc9PRgAIAAoADD10sbPzOz7AjjMh/O3zzBAzIfzt88wShxOZW5TWEhVZ3pEOGhsQndQQUIzNlQzRWpQZEU9Wh8iHdpVSy91M0I0S0V0NEovZmw5amV1aE8wVlhSYmM9ZTSSMuIS8wEIEBLuAQocRFNzVGRHS0g1SjhFSjR2Mk1qd1lpSUNLMDdzPRJmWjpBRHF0QVp5aEVVeUFoUHJ5dTdQZk9mZzVnUEFIZDl4TGo1SDk0N1o5Ukk2WFhFa05IVjlMZndUYkhBazdETTNOK1FRNXgyQXFlUVNEcm1VQWxrMEQ1Q3VhNmdrNWlCeDlDUT09GAAgAigCMMemrdLphIIDOI29qICrMEC5ktzrtDFKHGhzZHVaZDEyaGlNKzc4ZlBDYWtHTWlLbmhWTT1aJiIk/////wAAAAQ4STVvaEVUdlJ1eTA4YzkreElIN1kyMVNYNlU9ZaO75owS7AEIGhLnAQocQ2JTUjJSNkdnSjYyaG9uWk04TElpdkRZY3NRPRJmWjpBRHF0QVp5aEVVeUFoUHJ5dTdQZk9mZzVnUEFIb1BaZndhZTZZZFBPdnRrT2hWVmNLWkFsRDV3T2xNbVRUdjVpcWYxSzZtZmw5UHZQeEloaTVlN3NJVHpHZHFCRjJwWlUrdz09GAAgACgAMKrpi9TD2/4COLuw1bP+MEC7sNWz/jBKHENFWDJOSFVuemZtRHBoQjcva1FWSDlEK00wND1aHyId/mNsOUE5MUQ1VktXSDNBYU5IbkhtVWlMYU5Cbz1ldzc1cRLtAQgGEugBChw0QXNBcXpNa1E4NFZQNDl5N3h3N2VyMjl4M2s9EmZaOkFEcXRBWnloRVV5QWhQcnl1N1BmT2ZnNWdQQUgrUkUrRm1mUk9NbDE2dEhNa0dPWGxSa2c5cE5ERWhrVmZsMGdTdEtWNjlYUWQwZWtnWGRtUTlKTzFiRW8xTUhubGdscGpBPT0YACACKAIwx6at0umEggM41qOh+tkvQK2S3Ou0MUocZkQ4dStFY1lYYTJXZlJOVkNRU3FoS0NmeE80PVogIh7//Wl6V2x2UlcrZklXMmlEd2I1blJwNHpIYk5WRT1lBfxGJRLvAQgPEuoBChwwU0VuZUhucVh5V0x0bUtLTUdja2NpdzFuUzA9EmZaOkFEcXRBWnloRVV5QWhQcnl1N1BmT2ZnNWdQQUhUOVR1STliSVZicGJKRWhBZkU1eWRhT3MvaHEvekFMS2tyNXFnR0dvZ3B5TzQ5ZUlJZ2EydHl0UG5DSDlvQm00M1dEdktRPT0YACACKAIwx6at0umEggM4/Pion6cwQLiS3Ou0MUocVENtVVdUSlBOYVRBUWE1Mmd4dTM5QW9PK1Y4PVoiIiD////+M29PNWFUN3lrRDUySlBqc0d6LzR6SmFZT2dvPWVWE/DIEsMBCAISvgEKHFljU1RvbnZFU1B3cUNzNEwyY3JWaHY2OEw5OD0SZlo6QURxdEFaekRXVDVFa3JWQWxnNnVuRWVucWtGd0tGcjBPWU5Sdkw1Y3hJZ09MZlVmTTZzWmp3eG9HTjZ6THAxTWtJTktvWGlLNlo0V3hwaFVpZkxwUFdVa0drYi9kVkt4Tnc9PRgAIAAoADC0ufHF6YSCAzgAQABKHG9QVmtod0JSYlY2NUtDV1IyK0lPTkhXb091OD1aAGUAAAAAEu0BCAgS6AEKHGtvVC9xSnRYVllIbmVhU2IxZEovUDF1YVNEYz0SZlo6QURxdEFaeWhFVXlBaFByeXU3UGZPZmc1Z1BBSFFITWhuOXBqQU1HRThKbVhiMlNrRFkyYkNqNi9abHFKSWtQVXJlVnpPb1pFaWNPckRzR0FLMDBhN0tMM1NZcjdIbEYzMFE9PRgAIAAoADC1hvO+ibz3AjiM4+jj3C9AjOPo49wvShxORFpiS0VNQWg5cHNiZ2g4M1MyZ09NQWJLRlk9WiAiHv/+R0VlVWgvYjk3OTQrOFpKL0VFVlZ0NndSZHJ3PWUAAAAAEu8BCA0S6gEKHENoZDlic0k1djdLZkdKTnQ0T2tVZkdQUVRwUT0SZlo6QURxdEFaeWhFVXlBaFByeXU3UGZPZmc1Z1BBSGR1T3dOb0Q0ajhEdEh3SEluVHVCRURqcUxaSVBVTWhPcllQYnUxcUQvblozbVZ0OWFlMC9GVmQwUlRZZENlaXNyalVRNHc9PRgAIAIoAjDHpq3S6YSCAzjA/JeapTBAt5Lc67QxShxnZzB6cEh4Y0M4eEJhK2VMcU13Sk1RcVFEMVU9WiIiIP////tUTk1kSnlEYWJScUdrZVJ5cWRVb2QrTDFUN1U9ZamBpK0S7wEIDBLqAQocZXNzcE5SMFBLL29JRFE2Rk1nMXFaam9ycURnPRJmWjpBRHF0QVp5aEVVeUFoUHJ5dTdQZk9mZzVnUEFIM1B0c0pIRmtjZXVqcUZWazZYb1doZHBxMlRVU1BqRGZpM0xOU0phb1paUkV5bCs1WEdTRGFlL1RBc1RUeHhydjlWTGZtdz09GAAgAigCMMemrdLphIIDOPrZ2pKlMEC3ktzrtDFKHGlXVXBCSy9uQWxEb2NEQ29MK3puc1A4cVFtOD1aIiIg////93JsYWIvVHZMOHp2dlF3c1V4U01iU1BRWk9RMD1lTTbEbRLtAQggEugBChwwbEJaS2FxK2tRRjROQUVhak5NeVg5bU1iZmc9EmZaOkFEcXRBWnloRVV5QWhQcnl1N1BmT2ZnNWdQQUhqWndJOUpSUGR0dS9PbUoxM2FDQWVObEFscGVocUQwdnRTdTlqbUt6TWpiSG1TNzNmcW5SZ2cySHZBYU9VeC9CRk9sQWdBPT0YACAAKAAw1JGDydGVgQM4+YaDzqYxQPmGg86mMUoceU5XbE1UWDRCR2g5dVh3SHdla3VLMkRBTU13PVogIh7/+1Z4Rmw0S2hXSElwMUFIMVozWE9ZS2hnZzk2OD1ltWFDjRLuAQgJEukBChxSN1RzMDJQd3hCSS9TdmFOOU5aVjhnSWpHcEE9EmZaOkFEcXRBWnloRVV5QWhQcnl1N1BmT2ZnNWdQQUgvc3p1azE3K0Z2ZFh0TVJVT2g1ek1SMUk1MDUyVkt5d1R2R2d4ekFoMUM2OHhDdUdCZG9lUVk5aWRqelRZSnhpY0ZhaU5RPT0YACACKAIwx6at0umEggM4uunqluIvQLGS3Ou0MUocYTBsb0d6aDBlSitsdldhQTVyekVTbzhSVnVjPVohIh///6E2V3Z3QTB3cmNvZFlYWkU0ZmVxSlBxdTg2VHM9ZaOftx0S7wEIDhLqAQoca2dyWTk0Y1A0L3drTURlNS9hM0kzcG1OMS9RPRJmWjpBRHF0QVp5aEVVeUFoUHJ5dTdQZk9mZzVnUEFIdDBuNWNWWVpXNDRJem1MbWV4bFpNSG12VlNOTUZXdWxBTEZRSTB6N1I2bUZERjdlTVpzZHpXWVBWU0pJOU00RWh3THRVdz09GAAgAigCMMemrdLphIIDOJm+3JinMEC4ktzrtDFKHDZUSzVYbGJOVmo0QTZDa3JiUWcrR0R5eVBCTT1aIiIg/////S94bENOTzB1c045cm1iMkFLWTgvMFZscmgxRT1l6iP5QBLsAQgbEucBChxjSUwzbnBVaUVLQ3NZNy8vUzV1eWZDL1ZMZ1U9EmZaOkFEcXRBWnloRVV5QWhQcnl1N1BmT2ZnNWdQQUh1czdORGZJcHpLNFhNNGtPTklKSXoxYnZSTi96cENOOU5ZSlR4UXR5V3did2M2bFRWbGlnbUh2alBjd280SlRqTGFDTXF3PT0YACAAKAAwqJWu8tzf/gI4jri3+P4wQI64t/j+MEocdVpIb2FhRXpXdFZWQzBkYUM2N2srMjVZbTJ3PVofIh3/UUIrSkgvTVdPMFhJN3ZNWnU5UGpRKzRsL3pVPWVaOs46Eq0CCAUSqAIKHHBMUWhiczJjVGJzR0tjLzV6NGFHMzQwTEhqZz0SpgFaOkFEcXRBWnhvQ2hhNlg5MjN3eFBTSWljTmR0M0pGMEpWY2tTR09DRzZtVnBzMDdLbldGNnJ3YmdKWHpGcklvQm5hV0xlUTJGQXlvS3p1dXN0TFJtdzhyS0lvcGtqK3BhWlZXdENUY2U5YVBsdXg1WWk0OElPVXhOQmpMa0F6dnRKZjdVLzkzNEw2bVk1bFJCSmxjSDhrWUlhTjhLNExlRytwdz09GAAgAigCMMemrdLphIIDOK/84cqELkCsktzrtDFKHEh4MStKOHFOTkZTS0JYUkdUQ0gzRnVMQjRYdz1aHyId5DFrYnlMeUtQUzhWbXlJZlpHeDVSN3NMeHpFaz1lOPk5MxLtAQgHEugBChxOSmptb3hRS1AwcUxsL2VZMjVLTk1NSUkyZmM9EmZaOkFEcXRBWnloRVV5QWhQcnl1N1BmT2ZnNWdQQUhRL0F1RHRPYUxZTGxFcmxFTWdlOS9vclZrR25xQVprcmpxeHJ4ejNXY20zbjNwb3JJSDhBT2k3TTRMem9TcFBmb2NGYmNRPT0YACACKAIwx6at0umEggM4k92c9PsvQK6S3Ou0MUocZ2d3aTRKNzFGY2dkaG1vYWE5K1JiQU9LUDhzPVogIh7//kZmMDk1OWVRaHZxN3hSMHJERDNzN1IyYTBQaz1lTsatixLrAQgTEuYBChxhUFZtMVB1VnUxOXZKcmM3QmNSS2M1ZmhWSVU9EmZaOkFEcXRBWnloRVV5QWhQcnl1N1BmT2ZnNWdQQUhKK01Hckd1Uy9EakRaQk0rY0xrQXRzTHFYckZwejE0RDVyenlONlB0bG1NUVdoR0xWTWpzZ2R2cGpWM0plVlJOK3pLcVRnPT0YACAAKAAwtZaolePi+wI4vPL4ls4wQLzy+JbOMEocWTRicmtuaVdwUFRFdjI5NDFOaDRDOVJQYUVFPVoeIhxqTFhjUjRjTDdYK0F5dWxFamlwcUNmdDZQSEU9ZRkFrzkS7gEICxLpAQocb3BWenpnS2ZXU1A5UU84dk1XVnY2T3paSGZZPRJmWjpBRHF0QVp5aEVVeUFoUHJ5dTdQZk9mZzVnUEFIZmZFcE0yQXVMZkQraXlJOFhQUFREb2pWWjY3bTVXWVpQL1g5YmdrVkM1TFZHZ05VQ3R4clFFcXNycllRVXZsODNoSWtUZz09GAAgAigCMMemrdLphIIDONm1mb6pMECzktzrtDFKHHl0a0YzQ3o0dXd6T2NIampuc2ZobktiZ1dmYz1aISIf///neXZJUjllNHVjVEsxSkZrY2NVT1lYZEVhMDE0PWXnijWqMAE4AA==",
+   "version": 1
+}

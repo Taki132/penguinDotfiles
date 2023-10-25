@@ -1,0 +1,15 @@
+2023/10/02-15:49:44.540 8ca Reusing MANIFEST /home/karuto/.config/Morgen/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2023/10/02-15:49:44.540 8ca Recovering log #3
+2023/10/02-15:49:45.737 8ca Reusing old log /home/karuto/.config/Morgen/IndexedDB/file__0.indexeddb.leveldb/000003.log 
+2023/10/02-16:11:16.631 8ca Level-0 table #5: started
+2023/10/02-16:11:16.748 8ca Level-0 table #5: 926181 bytes OK
+2023/10/02-16:11:16.817 8ca Delete type=0 #3
+2023/10/02-17:19:28.687 8ca Level-0 table #7: started
+2023/10/02-17:19:28.817 8ca Level-0 table #7: 775618 bytes OK
+2023/10/02-17:19:28.887 8ca Delete type=0 #4
+2023/10/02-17:19:40.760 8ca Compacting 1@1 + 1@2 files
+2023/10/02-17:19:40.873 8ca Generated table #8@1: 844 keys, 70482 bytes
+2023/10/02-17:19:40.873 8ca Compacted 1@1 + 1@2 files => 70482 bytes
+2023/10/02-17:19:40.939 8ca compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/10/02-17:19:40.940 8ca Delete type=2 #5
+2023/10/02-17:19:40.940 8ca Delete type=2 #7

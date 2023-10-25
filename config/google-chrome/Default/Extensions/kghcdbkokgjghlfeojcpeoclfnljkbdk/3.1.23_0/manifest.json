@@ -1,0 +1,34 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "logo512.png",
+         "16": "favicon.png",
+         "32": "logo192.png",
+         "48": "logo192.png"
+      },
+      "default_popup": "index.html",
+      "default_title": "__MSG_title__"
+   },
+   "background": {
+      "service_worker": "./background.js"
+   },
+   "content_scripts": [ {
+      "css": [ "contentScript.css" ],
+      "js": [ "constants.js", "helpers.js", "contentScript.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_desc__",
+   "icons": {
+      "128": "logo512.png",
+      "16": "favicon.png",
+      "32": "logo192.png",
+      "48": "logo192.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjDzDfp12Z/vnSWPynSbKf++9sQr+6p2oN3kFM6i+/BB0p4gRa6XW67Bq4oJ6uI5gKgJ+w6U908rG3J5i60trKTQev/8emxvEInLFaw9/sylP4PKZz3Pr890t08tPmJN83O0YfTjbia6cp3eDenIVu1W3it8qc7NXRCECYapgloGEXEx0sLldkjXuZ5Cse/Cy+K1O+Enev6Jxbv6GstKo5wR6PSLpTKlzjvPCh0Zogudn1B1FNHBc7IyKZEUk/6UEXUXCQeNx8h2A3g3TJdQ8gu92wQ8zydnG1rutOU2hKl8/dEQEDO3Fiu4n1DDXJKwnCJidj8HsBcbIs1Jo3OV6+wIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_name__",
+   "permissions": [ "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.1.23"
+}

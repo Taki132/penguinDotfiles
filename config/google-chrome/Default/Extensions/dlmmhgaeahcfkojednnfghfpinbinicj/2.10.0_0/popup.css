@@ -1,0 +1,70 @@
+body
+{
+	width: 400px; 
+	background: #2C2F33; 
+	color: white;
+}
+
+button
+{
+	border: 5px solid #7289DA;
+	background: #7289DA;
+	color: white;
+}
+
+#type
+{
+	width:50px
+	border: 5px solid #7289DA;
+	background: #7289DA;
+	color: white;
+}
+
+#name
+{
+	width: 292px;
+}
+
+#streamurl, #details, #state
+{
+	width: 395px;
+}
+
+#state.withparty
+{
+	width: 308px;
+}
+
+#source
+{
+	border: 5px solid #7289DA;
+	background: #7289DA;
+	color: white;
+}
+
+input[type="number"]
+{
+	width: 32px;
+}
+
+.hidden
+{
+	display: none;
+}
+
+::placeholder
+{
+	color: white;
+}
+
+input
+{
+	background: transparent;
+	color: white;
+	border: 1px solid #7289DA;
+}
+
+a
+{
+	color: #34d5eb;
+}
