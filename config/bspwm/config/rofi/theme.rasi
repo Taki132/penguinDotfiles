@@ -1,5 +1,5 @@
 configuration {
-	font:							"Cascadia Code 11";
+	font:							"Roboto Mono 11";
     show-icons:                     true;
     display-drun: 					"run";
     drun-display-format:            "{name}";
@@ -27,7 +27,7 @@ window {
 	width:							100%;
 	height:							100%;
     location:                       center;
-    font:							"Cascadia Code 16";
+    font:							"Roboto Mono 16";
 }
 
 // prompt
