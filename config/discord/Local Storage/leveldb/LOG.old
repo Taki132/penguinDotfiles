@@ -1,2 +1,8 @@
-2023/10/07-20:15:21.865 b2c5 Creating DB /home/karuto/.config/discord/Local Storage/leveldb since it was missing.
-2023/10/07-20:15:22.713 b2c5 Reusing MANIFEST /home/karuto/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2023/10/26-19:40:56.284 3c202 Creating DB /home/karuto/.config/discord/Local Storage/leveldb since it was missing.
+2023/10/26-19:40:57.660 3c202 Reusing MANIFEST /home/karuto/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2023/10/26-19:44:33.925 3c444 Level-0 table #5: started
+2023/10/26-19:44:34.060 3c444 Level-0 table #5: 60168 bytes OK
+2023/10/26-19:44:34.227 3c444 Delete type=0 #3
+2023/10/26-19:48:18.354 3c444 Level-0 table #7: started
+2023/10/26-19:48:18.548 3c444 Level-0 table #7: 4022153 bytes OK
+2023/10/26-19:48:18.594 3c444 Delete type=0 #4

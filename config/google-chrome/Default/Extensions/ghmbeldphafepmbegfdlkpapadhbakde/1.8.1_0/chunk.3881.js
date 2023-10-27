@@ -1,2 +1,0 @@
-"use strict";(globalThis.webpackChunkproton_pass_extension=globalThis.webpackChunkproton_pass_extension||[]).push([[3881],{3881:(e,t,n)=>{n.r(t),n.d(t,{BigInteger:()=>a,default:()=>a});class a{static setImplementation(e,t=!1){if(a.Implementation&&!t)throw new Error("Implementation already set");a.Implementation=e}static new(e){return new a.Implementation(e)}}}}]);
-//# sourceMappingURL=chunk.3881.js.map

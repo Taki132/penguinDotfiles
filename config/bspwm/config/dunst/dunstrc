@@ -19,7 +19,7 @@
     horizontal_padding = 8
     text_icon_padding = 0
     frame_width = 1
-    frame_color = "#101010"
+    frame_color = "#24273a"
     separator_color = auto
     sort = yes
     idle_threshold = 0
@@ -58,21 +58,21 @@
     per_monitor_dpi = false
 
 [urgency_low]
-    background = "#101010"
-    foreground = "#f8f8f6"
+    background = "#2d353b"
+    foreground = "#d3c6aa"
     timeout = 5
     icon = /usr/share/icons/Arc-X-D/status/16/dialog-information.png
 
 [urgency_normal]
-    background = "#101010"
-    foreground = "#f8f8f6"
+    background = "#2d353b"
+    foreground = "#d3c6aa"
     timeout = 5
     icon = /usr/share/icons/Arc-X-D/status/16/dialog-question.png
 
 [urgency_critical]
-    background = "#101010"
-    foreground = "#f8f8f6"
-    frame_color = "#ff8989"
+    background = "#2d353b"
+    foreground = "#d3c6aa"
+    frame_color = "#e67e80"
     timeout = 120
     icon = /usr/share/icons/Arc-X-D/status/16/dialog-warning.png
 

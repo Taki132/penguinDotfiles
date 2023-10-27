@@ -1,3 +1,6 @@
-2023/10/07-20:26:13.788 c420 Reusing MANIFEST /home/karuto/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2023/10/07-20:26:13.788 c420 Recovering log #3
-2023/10/07-20:26:13.863 c420 Reusing old log /home/karuto/.config/discord/Local Storage/leveldb/000003.log 
+2023/10/26-19:56:20.899 835 Reusing MANIFEST /home/karuto/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2023/10/26-19:56:20.988 835 Recovering log #6
+2023/10/26-19:56:21.151 835 Reusing old log /home/karuto/.config/discord/Local Storage/leveldb/000006.log 
+2023/10/26-20:01:53.861 834 Level-0 table #10: started
+2023/10/26-20:01:53.979 834 Level-0 table #10: 2071971 bytes OK
+2023/10/26-20:01:54.046 834 Delete type=0 #6

@@ -1,0 +1,27 @@
+2023-10-26T12:40:56.974Z 0: 
+
+----------------------------------------------
+2023-10-26T12:40:57.660Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.32"}, modulepath: /home/karuto/.config/discord/0.0.32/modules
+2023-10-26T12:40:57.904Z 2: ✅ webContents.created web1 ""
+2023-10-26T12:40:58.115Z 3: ✅ window.created win1 "discord"
+2023-10-26T12:41:00.290Z 4: ✅ webContents.did-finish-load web1
+2023-10-26T12:41:33.555Z 5: ✅ webContents.created web2 ""
+2023-10-26T12:41:33.783Z 6: ✅ window.created win2 "Discord"
+2023-10-26T12:41:50.862Z 7: ✅ webContents.did-finish-load web2
+2023-10-26T12:41:51.253Z 8: window.close win1
+2023-10-26T12:41:51.447Z 9: webContents.destroyed web1
+2023-10-26T12:41:51.621Z 10: window.closed win1
+2023-10-26T12:56:21.431Z 0: 
+
+----------------------------------------------
+2023-10-26T12:56:21.580Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.32"}, modulepath: /home/karuto/.config/discord/0.0.32/modules
+2023-10-26T12:56:21.749Z 2: ✅ webContents.created web1 ""
+2023-10-26T12:56:21.902Z 3: ✅ window.created win1 "discord"
+2023-10-26T12:56:22.521Z 4: ✅ webContents.did-finish-load web1
+2023-10-26T12:56:23.587Z 5: ✅ webContents.created web2 ""
+2023-10-26T12:56:23.624Z 6: ✅ window.created win2 "Discord"
+2023-10-26T12:56:31.832Z 7: ✅ webContents.did-finish-load web2
+2023-10-26T12:56:31.944Z 8: window.close win1
+2023-10-26T12:56:32.036Z 9: webContents.destroyed web1
+2023-10-26T12:56:32.169Z 10: window.closed win1
+2023-10-26T14:08:29.359Z 11: window.close win2

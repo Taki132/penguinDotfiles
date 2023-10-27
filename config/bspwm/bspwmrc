@@ -18,11 +18,6 @@ workspaces
 # bspwm config
 bspc config remove_unplugged_monitors true
 bspc config remove_disabled_monitors true
-bspc config top_padding 0
-bspc config right_padding 0
-bspc config bottom_padding 0
-bspc config left_padding 0
-bspc rule -a URxvt:scratchy sticky=on state=floating rectangle=widthxheight+Xoffset+Yoffset
 bspc config window_gap 10
 bspc config focus_follows_pointer true
 bspc config split_ratio 0.5

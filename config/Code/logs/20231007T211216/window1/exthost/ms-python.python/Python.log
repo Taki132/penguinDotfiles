@@ -1,8 +1,0 @@
-2023-10-07 21:12:32.303 [info] Experiment 'python.createEnvironment.trigger' is active
-2023-10-07 21:12:32.303 [info] Experiment 'pythonPromptNewFormatterExt' is active
-2023-10-07 21:12:32.303 [info] Experiment 'pythonPromptNewToolsExt' is active
-2023-10-07 21:12:32.303 [info] Experiment 'pythonTerminalEnvVarActivation' is active
-2023-10-07 21:12:32.303 [info] Experiment 'pythonTestAdapter' is active
-2023-10-07 21:12:32.303 [info] Test server listening.
-2023-10-07 21:12:32.303 [info] Python interpreter path: /bin/python
-2023-10-07 21:12:44.381 [info] Starting Pylance language server.
