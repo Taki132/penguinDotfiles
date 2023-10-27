@@ -1,0 +1,72 @@
+#!/bin/bash
+
+dir="$HOME/.config/bspwm/config/rofi"
+theme='theme'
+
+# Options
+shutdown='poweroff'
+reboot='reboot'
+lock='lock'
+suspend='suspend'
+logout='logout'
+
+# Rofi CMD
+rofi_cmd() {
+	rofi -dmenu \
+		-p "power" \
+		-theme ${dir}/${theme}.rasi
+}
+
+# Pass variables to rofi dmenu
+run_rofi() {
+	echo -e "$lock\n$suspend\n$logout\n$reboot\n$shutdown" | rofi_cmd
+}
+
+# Execute Command
+run_cmd() {
+		if [[ $1 == '--shutdown' ]]; then
+            if command -v systemctl &>/dev/null; then
+			    systemctl poweroff
+            elif command -v loginctl &>/dev/null; then
+                loginctl poweroff
+            else
+                poweroff
+            fi
+		elif [[ $1 == '--reboot' ]]; then
+            if command -v systemctl &>/dev/null; then
+			    systemctl reboot
+            elif command -v loginctl &>/dev/null; then
+                loginctl reboot
+            else
+                reboot
+            fi
+		elif [[ $1 == '--suspend' ]]; then
+            if command -v systemctl &>/dev/null; then
+			    systemctl suspend
+            elif command -v loginctl &>/dev/null; then
+                loginctl suspend
+            fi
+		elif [[ $1 == '--logout' ]]; then
+			bspc quit
+		fi
+}
+
+# Actions
+chosen="$(run_rofi)"
+case ${chosen} in
+    $shutdown)
+		run_cmd --shutdown
+        ;;
+    $reboot)
+		run_cmd --reboot
+        ;;
+    $lock)
+		~/.config/bspwm/bin/blur-lock
+        ;;
+    $suspend)
+		run_cmd --suspend
+        ;;
+    $logout)
+		run_cmd --logout
+        ;;
+esac
